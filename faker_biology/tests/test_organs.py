@@ -13,21 +13,19 @@ from faker_biology.providers.organs.organs import Organ
 
 fake=Faker()
 fake.add_provider(Organ)
-#organ_provider = Organ()
+organ_provider = Organ(None)
 class OrganTest(unittest.TestCase):
     
   
-    
     def test_organ_categories(self):
-        pass
-     #   self.assertEqual(13, len(organ_provider.categories()))
+        self.assertEqual(13, len(organ_provider.categories()))
         
     def test_random_organ(self):
-        for i in range(15):
-            print(fake.organ())
+        organ_set = set([fake.unique.organ() for i in  range (15)])
+        self.assertEqual(15, len(organ_set))
             
     def test_non_reproductive_organ(self):
-        for i in range(30):
-            print(fake.non_reproductive_organ())
+        organs = [fake.unique.non_reproductive_organ() for i in range( 70)]
+        self.assertFalse('Ovaries' in organs)
         
         
