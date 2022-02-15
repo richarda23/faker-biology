@@ -19,13 +19,13 @@ class NucleicAcid(BaseProvider):
     def __init__(self, generator):
         super().__init__(generator)
   
-    def dna(self, length=80)->str:
+    def dna(self, length: int =80)->str:
         """
         Gets a random DNA sequence. Each nucleotide has equal probability of occurrence
         Parameters
         ----------
         length : int, optional
-            Desired lenght of sequence. The default is 80.
+            Desired length of sequence. The default is 80.
         Returns
         -------
         str
@@ -33,19 +33,37 @@ class NucleicAcid(BaseProvider):
         """
         return self._nucleotide_seq(length, dna_data.unambiguous_dna_letters)
     
-    def rna(self, length=80)->str:
+    def rna(self, length: int =80)->str:
         """
         Gets a random RNA sequence. Each nucleotide has equal probability of occurrence
         Parameters
         ----------
         length : int, optional
-            Desired lenght of sequence. The default is 80.
+            Desired length of sequence. The default is 80.
         Returns
         -------
         str
             RNA string.
         """
         return self._nucleotide_seq(length, dna_data.unambiguous_rna_letters)
+    
+    
+    def cds(self, length: int =20)->str:
+        """
+        Returns a DNA sequence that will encode a polypeptide. Th sequence will
+        always beging with 'ATG' and end with a randomly-chosen termination codon.
+        
+        e.g. cds(2) could return 'ATGGAAGTCTGA' 
+        Parameters
+        ----------
+        length : int, optional
+            Number of codons, excluding initial ATG and final termination codon. The default is 20.
+        Returns
+        -------
+        str
+            A DNA coding sequence.
+        """
+        pass
     
     def _nucleotide_seq(self, length, alphabet):
         alphabet_length= len(alphabet) -1

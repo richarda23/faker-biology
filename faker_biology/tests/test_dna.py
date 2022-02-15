@@ -19,8 +19,10 @@ class DNATest(unittest.TestCase):
   
             
     def test_random_dna(self):
-        print(fake.dna(20))
-        print(fake.rna(20))
+        dna_seq = fake.dna(200)
+        self.assertTrue( i in dna_seq for i in 'ATCG')
+        rna_seq=fake.rna(200)
+        self.assertTrue( i in dna_seq for i in 'AUCG')
         
   
         

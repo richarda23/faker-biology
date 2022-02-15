@@ -16,8 +16,7 @@ fake.add_provider(RestrictionEnzyme)
 re_provider = RestrictionEnzyme(None)
 class ReTest(unittest.TestCase):
     
-  
-            
+          
     def test_random_re(self):
         res = [fake.unique.restriction_enzyme() for i in range( 100)]
         self.assertEqual(100, len(res))
@@ -28,9 +27,8 @@ class ReTest(unittest.TestCase):
         self.assertTrue(all ([isinstance(re, dict) for re in res]))
         
     def test_min_size(self):
-        res = [fake.restriction_enzyme(800) for i in range( 20)]
+        res = [fake.restriction_enzyme(8) for i in range( 20)]
         self.assertTrue(all ([isinstance(re, str) for re in res]))
-        print(res)
         
     def test_blunt(self):
         res = [fake.unique.blunt() for i in range( 50)]
