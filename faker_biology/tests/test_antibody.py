@@ -9,7 +9,6 @@ Created on Sun Feb 13 10:27:03 2022
 import unittest
 from faker import Faker
 from faker_biology.providers.mol_biol.antibody import Antibody, ModelOrganism
-import faker_biology.providers.nucleic_acid as dna_data
 
 
 fake=Faker()

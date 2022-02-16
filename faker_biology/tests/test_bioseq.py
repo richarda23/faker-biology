@@ -8,14 +8,14 @@ Created on Sun Feb 13 10:27:03 2022
 
 import unittest
 from faker import Faker
-from faker_biology.providers.nucleic_acid.dna import NucleicAcid
-import faker_biology.providers.nucleic_acid as dna_data
+from faker_biology.providers.bioseq.bioseq import Bioseq
+import faker_biology.providers.bioseq as bioseq_data
 
 
 fake=Faker()
-fake.add_provider(NucleicAcid)
-re_provider = NucleicAcid(None)
-class DNATest(unittest.TestCase):
+fake.add_provider(Bioseq)
+re_provider = Bioseq(None)
+class BioseqTest(unittest.TestCase):
     
   
             
@@ -27,9 +27,9 @@ class DNATest(unittest.TestCase):
         
     def test_cds(self):
         cds = fake.cds(20)
-        self.assertEqual(26, len(cds))
+        self.assertEqual(66, len(cds))
         self.assertTrue(cds.startswith('ATG'))
-        self.assertTrue(cds[-3:] in dna_data.stop_codons) 
+        self.assertTrue(cds[-3:] in bioseq_data.stop_codons) 
         
     def test_protein(self):
         protein = fake.protein(20)
@@ -38,9 +38,7 @@ class DNATest(unittest.TestCase):
         
     def test_protein_name(self):
         protein = fake.protein_name()
-        for i in range(200):
-            
-            print (fake.protein_name_desc())
+        
       
   
         
