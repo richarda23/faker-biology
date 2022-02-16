@@ -7,10 +7,10 @@ Created on Sun Feb 13 10:20:19 2022
 """
 from typing import Sequence
 from faker_biology.providers.organs import organ_data
-from faker.providers import BaseProvider
+from faker_biology.providers import BioProvider
 
 
-class Organ(BaseProvider):
+class Organ(BioProvider):
     """
      Provider of human organ names. Source of data is Wikipedia:
          https://en.wikipedia.org/wiki/List_of_organs_of_the_human_body

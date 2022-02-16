@@ -1,0 +1,312 @@
+==Cells derived primarily from endoderm==
+
+=== Exocrine secretory epithelial cells. ===
+*[[Brunner's gland]] cell in duodenum ([[enzyme]]s and [[alkaline mucus]])
+*Insulated [[goblet cell]] of [[respiratory tract|respiratory]] and [[Gastrointestinal tract|digestive]] tracts (mucus secretion)
+*Stomach
+**[[Gastric glands#Types of cell|Foveolar cell]] (mucus secretion)
+**[[Gastric glands#Types of cell|Chief cell]] ([[pepsinogen]] secretion)
+**[[Gastric glands#Types of cell|Parietal cell]] ([[hydrochloric acid]] secretion)
+*[[Pancreas#Histology|Pancreatic acinar]] cell ([[bicarbonate]] and [[digestive enzyme]] secretion)
+*[[Paneth cell]] of small [[intestine]] ([[lysozyme]] secretion)
+*Type II [[pneumocyte]] of [[human lung|lung]] ([[surfactant]] secretion)
+*[[Club cell]] of lung
+
+===Barrier cells===
+*Type I [[pneumocyte]] (lung)
+*[[Gallbladder#Microanatomy|Gall bladder epithelial cell]]
+*[[Centroacinar cell]] (pancreas)
+*[[Intercalated duct]] cell (pancreas)
+*Intestinal [[brush border]] cell (with [[microvilli]])
+
+===Hormone-secreting cells===
+*[[Enteroendocrine cell]]
+**K cell (secretes [[gastric inhibitory peptide]])
+**L cell (secretes [[glucagon-like peptide-1]], [[peptide YY| peptide YY<sub>3-36</sub>]], [[oxyntomodulin]], and [[glucagon-like peptide-2]])
+**I cell (secretes [[cholecystokinin]] (CCK))
+**G cell (secretes [[gastrin]])
+**[[Enterochromaffin cell]] (secretes [[serotonin]])
+**[[Enterochromaffin-like cell]] (secretes [[histamine]])
+**N cell (secretes [[neurotensin]])
+**S cell (secretes [[secretin]])
+**D cell (secretes [[somatostatin]])
+**Mo cell (or M cell) (secretes [[motilin]])
+**other hormones secreted: [[vasoactive intestinal peptide]], [[substance P]], [[alpha-endorphin|alpha]] and [[gamma-endorphin]], [[bombesin]]
+*[[Thyroid gland]] cells
+** [[Thyroid epithelial cell]]
+** [[Parafollicular cell]]
+*[[Parathyroid gland]] cells
+** [[Parathyroid chief cell]]
+** [[Oxyphil cell (parathyroid)|Oxyphil cell]]
+*[[Pancreatic islets]] (islets of Langerhans)
+**[[Alpha cell]] (secretes [[glucagon]])
+**[[Beta cell]] (secretes [[insulin]] and [[amylin]])
+**[[Delta cell]] (secretes [[somatostatin]])
+**[[Epsilon cell]] (secretes [[ghrelin]])
+**[[PP cell]] (gamma cell) (secretes [[pancreatic polypeptide]])
+
+==Cells derived primarily from ectoderm==
+
+=== Exocrine secretory epithelial cells ===
+*[[Salivary gland#Microanatomy|Salivary gland]] mucous cell
+*[[Salivary gland#Microanatomy|Salivary gland]] serous cell
+*[[Von Ebner's glands|Von Ebner's gland]] cell in tongue (washes [[taste bud]]s)
+*[[Mammary gland]] cell ([[milk]] secretion)
+*[[Lacrimal gland cell]] ([[Tears|tear]] secretion)
+*[[Ceruminous glands|Ceruminous gland]] cell in [[ear]] ([[earwax]] secretion)
+*[[Eccrine sweat glands|Eccrine sweat gland]] dark cell (glycoprotein secretion)
+*[[Eccrine sweat glands|Eccrine sweat gland]] clear cell (small molecule secretion)
+*[[Apocrine sweat glands|Apocrine sweat gland]] cell (odoriferous secretion, sex-hormone sensitive)
+*[[Glands of Moll|Gland of Moll]] cell in eyelid (specialized [[sweat gland]])
+*[[Sebaceous gland]] cell (lipid-rich [[sebum]] secretion)
+*[[Bowman's gland]] cell in [[human nose|nose]] (washes [[olfactory]] epithelium)
+
+===Hormone-secreting cells===
+*Anterior/Intermediate [[Pituitary gland|pituitary]] cells
+** [[Corticotrope]]s
+** [[Gonadotrope]]s
+** [[Lactotrope]]s
+** [[Melanotroph|Melanotropes]]
+** [[Somatotrope]]s
+** [[Thyrotrope]]s
+*[[Magnocellular neurosecretory cell]]s, secrete [[oxytocin]] and [[vasopressin]]
+*[[Parvocellular neurosecretory cell]]s, secrete [[thyrotropin-releasing hormone]] (TRH), [[corticotropin-releasing hormone]] (CRH), vasopressin, oxytocin, [[neurotensin]], and [[prolactin]]
+* [[Chromaffin cell]]s ([[adrenal gland]])
+
+===Epithelial cells===
+*[[Keratinocyte]] (differentiating [[Epidermis (skin)|epidermal]] cell) 
+*Epidermal [[Epidermis#Cellular components|basal cell]] ([[stem cell]])
+*[[Melanocyte]]
+*[[Trichocyte (human)|Trichocyte]] (gives rise to hair and nail cells)
+**[[Medulla (hair)|Medullary]] hair shaft cell
+**[[Cortex (hair)|Cortical]] hair shaft cell
+**[[Cuticle (hair)|Cuticular]] hair shaft cell
+**[[Huxley's layer]] hair root sheath cell
+**[[Henle's layer]] hair root sheath cell
+**[[Outer root sheath]] hair cell
+*Surface [[epithelial cell]] of [[cornea]], [[tongue]], [[mouth]], [[nasal cavity]], distal [[anal canal]], distal [[urethra]], and distal [[vagina]]
+*basal cell (stem cell) of cornea, tongue, mouth, nasal cavity, distal anal canal, distal urethra, and distal vagina
+*[[Intercalated duct]] cell (salivary glands)
+*[[Striated duct]] cell (salivary glands)
+*[[Lactiferous duct]] cell (mammary glands)
+*[[Ameloblast]] (deposit [[tooth enamel]])
+
+===Oral cells===
+*[[Odontoblast]] (tooth [[dentin]] formation)
+*[[Cementoblast]] (tooth [[cementum]] formation)
+
+===Nervous system===
+There are nerve cells, also known as [[neuron]]s, present in our human body. They are branched out. These cells make up [[nervous tissue]].
+A neuron consists of a cell body with a nucleus and cytoplasm, from which long thin hair-like parts arise.
+
+====Sensory transducer cells====
+*[[Hair cell|Auditory inner hair cell]]s of [[organ of Corti]]
+*[[Hair cell|Auditory outer hair cell]]s of [[organ of Corti]]
+*Basal cells of [[olfactory epithelium]] (stem cell for olfactory neurons)
+*Cold-sensitive primary [[sensory neuron]]s
+*Heat-sensitive primary [[sensory neuron]]s
+*[[Merkel cell]]s of epidermis 
+*[[Olfactory receptor neuron]]s
+*Pain-sensitive primary [[sensory neuron]]s 
+*[[Photoreceptor cell]]s of [[retina]] in [[human eye|eye]]:
+**Photoreceptor [[rod cell]]s
+**Photoreceptor blue-sensitive [[cone cell]]s of eye
+**Photoreceptor green-sensitive [[cone cell]]s of eye
+**Photoreceptor red-sensitive [[cone cell]]s of eye
+*[[Proprioceptive]] primary [[sensory neuron]]s
+*Touch-sensitive primary [[sensory neuron]]s 
+*[[Chemoreceptor]] [[glomus cell]]s of [[carotid body|carotid body cell]] (blood pH sensor)
+* [[Hair cell |Outer hair cell]]s of [[vestibular system]] of ear (acceleration and gravity)
+* [[Hair cell |Inner hair cell]]s of [[vestibular system]] of ear (acceleration and gravity)
+* [[Taste receptor |Taste receptor cell]]s of [[taste bud]]
+
+====Autonomic neuron cells====
+*[[Cholinergic neuron]]s (various types)
+*[[Adrenergic]] neural cells (various types)
+*[[Peptidergic]] neural cells (various types)
+
+====Sense organ and peripheral neuron supporting cells====
+*Inner pillar cells of [[organ of Corti]]
+*Outer pillar cells of organ of Corti
+*Inner phalangeal cells of organ of Corti
+*Outer phalangeal cells of organ of Corti
+*Border cells of organ of Corti
+*[[Hensen's cell]]s of organ of Corti
+*Vestibular apparatus supporting cells
+*Taste bud supporting cells
+*Olfactory epithelium supporting cells
+*[[Olfactory ensheathing cell]]s
+*[[Schwann cell]]s
+*[[Satellite glial cell]]s
+*Enteric glial cells
+
+====Central nervous system neurons and [[glial cell]]s====
+*[[Neuron]] cells (large variety of types, still poorly classified)
+**[[Interneuron]]s
+*** [[Basket cell]]s
+*** [[Cartwheel cell]]s
+*** [[Stellate cell]]s
+*** [[Golgi cell]]s
+*** [[Granule cell]]s
+*** [[Lugaro cell]]s
+*** [[Unipolar brush cell]]s
+*** [[Martinotti cell]]s
+*** [[Chandelier cell]]s
+*** [[Cajal–Retzius cell]]s
+*** [[Double-bouquet cell]]s
+*** [[Neurogliaform cell]]s
+*** [[Retina horizontal cell]]s
+*** [[Amacrine cell]]s
+**** [[Starburst amacrine cell]]s
+*** [[Spinal interneuron]]s
+**** [[Renshaw cell]]s
+**Principal cells
+***[[Spindle neuron]]s
+***[[Fork neuron]]s
+***[[Pyramidal cell]]s
+****[[Place cell]]s
+****[[Grid cell]]s
+****[[Speed cell]]s
+****[[Head direction cell]]s
+****[[Betz cell]]s
+***[[Stellate cell]]s
+****[[Boundary cell]]s
+***[[Bushy cell]]s
+***[[Purkinje cell]]s
+***[[Medium spiny neuron]]s
+*[[Astrocyte]]s
+*[[Oligodendrocyte]]s
+*[[Ependymal cell]]s
+**[[Tanycyte]]s
+*[[Pituicyte]]s
+
+====Lens cells====
+*[[Anterior lens epithelial cell]]
+*[[Crystallin-containing lens fiber cell]]
+
+==Cells derived primarily from mesoderm==
+
+===Metabolism and storage cells===
+*[[Adipocytes]]:
+**[[White adipose tissue|White fat cell]]
+**[[Brown fat|Brown fat cell]]
+*[[Liver lipocyte]]
+
+===Secretory cells===
+*Cells of the [[Adrenal cortex]]
+**Cells of the Zona glomerulosa produce [[mineralocorticoid]]s
+**Cells of the Zona fasciculata produce [[glucocorticoid]]s
+**Cells of the Zona reticularis produce [[androgen]]s
+*[[Theca interna cell]] of [[ovarian follicle]] secreting [[estrogen]]
+*Corpus luteum cell of ruptured ovarian follicle secreting [[progesterone]]
+**[[Granulosa lutein cell]]s
+**[[Theca lutein cell]]s
+*[[Leydig cell]] of [[testes]] secreting [[testosterone]]
+*[[Seminal vesicle]] cell (secretes seminal [[fluid]] components, including [[fructose]] for swimming [[Spermatozoon|sperm]])
+*[[Prostate gland]] cell (secretes seminal fluid components)
+*[[Bulbourethral gland]] cell ([[mucus]] secretion)
+*[[Bartholin's gland]] cell ([[vaginal lubricant]] secretion)
+*[[Urethral gland|Gland of Littre]] cell (mucus secretion)
+*[[Uterus]] [[endometrium]] cell ([[carbohydrate]] secretion)
+*[[Juxtaglomerular cell]] ([[renin]] secretion)
+*[[Macula densa cell]] of kidney
+*[[Peripolar cell]] of kidney
+*[[Mesangial cell]] of kidney
+
+===Barrier cells===
+
+====Urinary system====
+*[[Bowman's capsule#Anatomy|Parietal epithelial cell]]
+*[[Podocyte]]
+*[[Proximal_tubule#Brush_border_cell|Proximal tubule brush border cell]]
+*[[Thin segment#Histology|Loop of Henle thin segment cell]]
+*[[Kidney distal tubule cell]]
+*[[Collecting duct system|Kidney collecting duct cell]]
+**[[Collecting duct system#Principal cells|Principal cell]]
+**[[Collecting duct system#Intercalated cells|Intercalated cell]]
+*[[Transitional epithelium]] (lining [[urinary bladder]])
+
+====Reproductive system====
+*Duct cell (of [[seminal vesicle]], [[prostate gland]], etc.)
+*[[Efferent ducts]] cell
+*[[Epididymis#Histology|Epididymal principal cell]]
+*[[Epididymis#Histology|Epididymal basal cell]]
+
+====Circulatory system====
+*[[Endothelial cells]]
+
+===Extracellular matrix cells===
+*Planum semilunatum epithelial cell of [[vestibular system]] of ear (proteoglycan secretion)
+*[[Organ of Corti]] interdental epithelial cell (secreting tectorial membrane covering hair cells)
+*[[Loose connective tissue]] [[fibroblast]]s
+*[[Cornea]]l fibroblasts ([[corneal keratocyte]]s)
+*[[Tendon cell|Tendon fibroblasts]]
+*[[Bone marrow#Stroma|Bone marrow]] [[reticular tissue]] [[fibroblast]]s
+*Other nonepithelial [[fibroblast]]s
+*[[Pericyte]]
+**[[Hepatic stellate cell]] (Ito cell)
+*[[Nucleus pulposus cell]] of [[intervertebral disc]]
+*[[Hyaline cartilage]] [[chondrocyte]]
+*[[Fibrocartilage]] [[chondrocyte]]
+*[[Elastic cartilage]] [[chondrocyte]]
+*[[Osteoblast]]/[[osteocyte]]
+*[[Osteoblast#Osteogenesis|Osteoprogenitor cell]] (stem cell of [[osteoblast]]s)
+*[[Hyalocyte]] of [[vitreous body]] of eye
+*[[Stellate cell]] of perilymphatic space of ear
+*[[Pancreatic stellate cell]]
+
+Note: [[Cephalic]] connective tissue and bones are derived from the [[Cranial neural crest]] which comes from the [[ectoderm]] [[germ layer]]
+
+===Contractile cells===
+*[[Skeletal muscle]] cells
+**[[Myocyte#Fiber typing|Red skeletal muscle cell]] (slow twitch)
+**[[Myocyte#Fiber typing|White skeletal muscle cell]] (fast twitch)
+**[[Myocyte#Fiber typing|Intermediate skeletal muscle cell]]
+**[[Nuclear bag fiber|Nuclear bag cell]] of [[muscle spindle]]
+**[[Nuclear chain cell]] of [[muscle spindle]]
+**[[Myosatellite cell]] (stem cell)
+*[[Cardiac muscle]] cells
+**[[Cardiac muscle cell]]
+**[[Cardiac_pacemaker#Primary (SA_node)|SA node cell]]
+**[[Purkinje fiber]] cell
+*[[Smooth muscle cell]] (various types)
+*[[Myoepithelial cell]] of [[Iris (anatomy)|iris]]
+*[[Myoepithelial cell]] of [[exocrine glands]]
+
+===Blood and immune system cells===
+*[[Erythrocyte]] (red blood cell) and precursor erythroblasts
+*[[Megakaryocyte]] ([[platelet]] precursor)
+*[[Platelets]] if considered distinct cells, currently there's debate on the subject.
+*[[Monocyte]] (white blood cell)
+*Connective tissue [[macrophage]] (various types)
+*Epidermal [[Langerhans cell]]
+*[[Osteoclast]] (in bone)
+*[[Dendritic cell]] (in [[lymphoid tissue]]s)
+*[[Microglial cell]] (in [[central nervous system]])
+*[[Neutrophil granulocyte]] and precursors ([[myeloblast]], [[promyelocyte]], [[myelocyte]], [[metamyelocyte]])
+*[[Eosinophil granulocyte]] and precursors
+*[[Basophil granulocyte]] and precursors
+*[[Mast cell]]
+*[[Helper T cell]]
+*[[Regulatory T cell]]
+*[[Cytotoxic T cell]]
+*[[Natural killer T cell]]
+*[[B cell]]
+*[[Plasma cell]] 
+*[[Natural killer cell]]
+*[[Hematopoietic stem cell]]s and [[Progenitor cells|committed progenitors]] for the [[blood]] and [[immune system]] (various types)
+
+===Germ cells (primordially not)===
+*[[Ovum|Oogonium]]/[[Oocyte]]
+*[[Spermatid]]
+*[[Sperm]]atocyte
+*[[Spermatogonium cell]] (stem cell for spermatocyte)
+*[[Sperm]]atozoon
+
+===[[Nurse cell]]===
+*[[Granulosa cell]] (in ovaries)
+*[[Sertoli cell]] (in testis)
+*[[Epithelial reticular cell]] (in thymus)
+
+===Interstitial cells===
+*[[Interstitial kidney cells]]
