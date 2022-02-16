@@ -15,7 +15,6 @@ fake=Faker()
 fake.add_provider(CellType)
 cell_provider = CellType(None)
 class OrganTest(unittest.TestCase):
-    
   
     def test_organ_categories(self):
         self.assertEqual(3, len(cell_provider.categories()))

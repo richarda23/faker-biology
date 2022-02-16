@@ -47,10 +47,22 @@ class NucleicAcid(BaseProvider):
         """
         return self._nucleotide_seq(length, dna_data.unambiguous_rna_letters)
     
-    
-    def cds(self, length: int =20)->str:
+    def stop_codon(self) -> str:
         """
-        Returns a DNA sequence that will encode a polypeptide. Th sequence will
+        A randomly-chosen stop codon from the 3 standard stop codons.
+
+        Returns
+        -------
+        str
+            A stop codon.
+        """
+        return self.random_element(dna_data.stop_codons)
+        
+    
+    
+    def cds(self, length: int = 20) -> str:
+        """
+        Returns a DNA sequence that will encode a polypeptide. The sequence will
         always beging with 'ATG' and end with a randomly-chosen termination codon.
         
         e.g. cds(2) could return 'ATGGAAGTCTGA' 
@@ -63,7 +75,7 @@ class NucleicAcid(BaseProvider):
         str
             A DNA coding sequence.
         """
-        pass
+        return 'ATG' + self.dna(length) + self.stop_codon()
     
     def _nucleotide_seq(self, length, alphabet):
         alphabet_length= len(alphabet) -1

@@ -5,3 +5,5 @@ unambiguous_rna_letters = "GAUC"
                       
 
 protein_letters = "ACDEFGHIKLMNPQRSTVWY"
+
+stop_codons =['TAG', 'TAA', 'TGA']
