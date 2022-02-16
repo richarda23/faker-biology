@@ -29,8 +29,13 @@ class DNATest(unittest.TestCase):
         cds = fake.cds(20)
         self.assertEqual(26, len(cds))
         self.assertTrue(cds.startswith('ATG'))
-        self
-        self.assertTrue(cds[-3:] in dna_data.stop_codons)        
+        self.assertTrue(cds[-3:] in dna_data.stop_codons) 
+        
+    def test_protein(self):
+        protein = fake.protein(20)
+        self.assertEqual(21, len(protein))
+        self.assertTrue(protein.startswith('M'))
+      
   
         
         

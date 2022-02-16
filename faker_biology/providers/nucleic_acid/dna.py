@@ -31,7 +31,7 @@ class NucleicAcid(BaseProvider):
         str
             DNA string.
         """
-        return self._nucleotide_seq(length, dna_data.unambiguous_dna_letters)
+        return self._seq(length, dna_data.unambiguous_dna_letters)
     
     def rna(self, length: int =80)->str:
         """
@@ -45,7 +45,7 @@ class NucleicAcid(BaseProvider):
         str
             RNA string.
         """
-        return self._nucleotide_seq(length, dna_data.unambiguous_rna_letters)
+        return self._seq(length, dna_data.unambiguous_rna_letters)
     
     def stop_codon(self) -> str:
         """
@@ -77,7 +77,25 @@ class NucleicAcid(BaseProvider):
         """
         return 'ATG' + self.dna(length) + self.stop_codon()
     
-    def _nucleotide_seq(self, length, alphabet):
+    def protein(self, length: int = 20) -> str:
+        """
+        Generates a random protein sequence starting with 'M' and then <length> amino acids
+        in single-letter code.
+
+        Parameters
+        ----------
+        length : int, optional
+            Length of sequence after initial 'M'. The default is 20.
+
+        Returns
+        -------
+        str
+            A Protein sequence.
+
+        """
+        return "M" + self._seq(length, dna_data.protein_letters)
+    
+    def _seq(self, length, alphabet):
         alphabet_length= len(alphabet) -1
         seq = []
         for i in range(length):       

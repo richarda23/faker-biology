@@ -22,7 +22,6 @@ class OrganTest(unittest.TestCase):
     def test_random_organ(self):
         cells = set([fake.unique.celltype() for i in  range (15)])
         self.assertEqual(15, len(cells))
-        print(cells)
             
         
         
