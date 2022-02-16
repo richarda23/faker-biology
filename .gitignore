@@ -1,3 +1,4 @@
 __pycache__
 faker_biology/.spyproject/
 faker_biology/tests/.pytest.cache/
+dist/

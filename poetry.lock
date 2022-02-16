@@ -145,18 +145,10 @@ category = "dev"
 optional = false
 python-versions = ">=3.7"
 
-[[package]]
-name = "unittest"
-version = "0.0"
-description = ""
-category = "main"
-optional = false
-python-versions = "*"
-
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "aa22809481913caf6efb834c70e16aa8a7b83d80fec6b7716f6fb40685b01c8b"
+content-hash = "603cbf72ea9f052584df563927f7ebe96a3f2a1e3b86ea3602b76837e728ef05"
 
 [metadata.files]
 atomicwrites = [
@@ -214,7 +206,4 @@ six = [
 tomli = [
     {file = "tomli-2.0.1-py3-none-any.whl", hash = "sha256:939de3e7a6161af0c887ef91b7d41a53e7c5a1ca976325f429cb46ea9bc30ecc"},
     {file = "tomli-2.0.1.tar.gz", hash = "sha256:de526c12914f0c550d15924c62d72abc48d6fe7364aa87328337a31007fe8a4f"},
-]
-unittest = [
-    {file = "unittest2-0.0.0.tar.gz", hash = "sha256:1b492484bea7f68abda5fcc61412e77b6a105e5842355d630f8b75f01add3555"},
 ]
