@@ -35,6 +35,12 @@ class DNATest(unittest.TestCase):
         protein = fake.protein(20)
         self.assertEqual(21, len(protein))
         self.assertTrue(protein.startswith('M'))
+        
+    def test_protein_name(self):
+        protein = fake.protein_name()
+        for i in range(200):
+            
+            print (fake.protein_name_desc())
       
   
         

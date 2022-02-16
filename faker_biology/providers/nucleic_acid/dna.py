@@ -95,6 +95,26 @@ class NucleicAcid(BaseProvider):
         """
         return "M" + self._seq(length, dna_data.protein_letters)
     
+    def protein_name(self) -> str:
+        return self.random_element(list(dna_data.protein_names.keys()))
+    
+    def protein_desc(self) -> str:
+        return self.random_element(list(dna_data.protein_names.values()))
+    
+    def protein_name_desc(self)->dict:
+        """
+        Returns a name-description pair
+
+        Returns
+        -------
+        dict
+            DESCRIPTION.
+
+        """
+        index = random.randint(0,len(dna_data.protein_names))
+        key = list(dna_data.protein_names.keys())[index]
+        return key, dna_data.protein_names[key]
+    
     def _seq(self, length, alphabet):
         alphabet_length= len(alphabet) -1
         seq = []
