@@ -21,11 +21,11 @@ def parse_lines(lines):
         if len(line) == 0 or line.isspace():
             continue
         depth, title_depth = get_depth2(line, title_depth)
-      #  print(f"depth of {line} is {depth}")line
+        #  print(f"depth of {line} is {depth}")line
         line = line.rstrip("\n*[]").lstrip("#- ")
         match = re.findall(r"\[([^\[\]]+)\]", line)
-        print (f"match is {match}")
-        content = match[0] if len(match) > 0  else line
+        print(f"match is {match}")
+        content = match[0] if len(match) > 0 else line
         if depth > curr_depth:
             stack.append({content: {}})
         elif depth == curr_depth:
@@ -72,7 +72,7 @@ def get_depth2(line, title_depth):
     elif line.startswith("##"):
         return 1, 1
     else:
-      #  print(line)
+        #  print(line)
         m = re.match(r"^(\s+)", line)
         if m is None:
             return title_depth + 1, title_depth
@@ -96,15 +96,16 @@ def leaves_by_category(data: dict, category: str):
     dict_leaves(data[category], leaves)
     return leaves
 
-senses={}
+
+senses = {}
 with open("cell-types.md") as data:
     lines = data.readlines()
     senses = parse_lines(lines)
-    
+
     leaves = []
     dict_leaves(senses, leaves)
- #   print(leaves)
+#   print(leaves)
 #    print(categories(senses))
-    # print(leaves_by_category(senses, "Eye"))
-with open('celltypes2.json', 'w') as jsonw:
+# print(leaves_by_category(senses, "Eye"))
+with open("celltypes2.json", "w") as jsonw:
     jsonw.write(json.dumps(senses, indent=4))

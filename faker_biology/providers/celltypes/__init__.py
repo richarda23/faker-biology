@@ -3,22 +3,18 @@ cell_types = {
         "Exocrine secretory epithelial cells.": {
             "Brunner's gland": {},
             "Goblet cell": {},
-            "Stomach": {
-                "Foveolar cell": {},
-                "Chief cell": {},
-                "Parietal cell": {}
-            },
+            "Stomach": {"Foveolar cell": {}, "Chief cell": {}, "Parietal cell": {}},
             "Pancreatic acinar": {},
             "Paneth cell": {},
             "Type II Pneumocyte": {},
-            "Club cell": {}
+            "Club cell": {},
         },
         "Barrier cells": {
             "Type I Pneumocyte": {},
             "Gall bladder epithelial cell": {},
             "Centroacinar cell": {},
             "Intercalated duct": {},
-            "Intestinal brush border": {}
+            "Intestinal brush border": {},
         },
         "Hormone-secreting cells": {
             "Enteroendocrine cell": {
@@ -31,24 +27,18 @@ cell_types = {
                 "neurotensin-secreting N cell": {},
                 "secretin-secreting S cell": {},
                 "somatostatin-secreting D cell": {},
-                "motilin-secreting M cel": {}
+                "motilin-secreting M cel": {},
             },
-            "Thyroid gland": {
-                "Thyroid epithelial cell": {},
-                "Parafollicular cell": {}
-            },
-            "Parathyroid gland": {
-                "Parathyroid chief cell": {},
-                "Oxyphil cell": {}
-            },
+            "Thyroid gland": {"Thyroid epithelial cell": {}, "Parafollicular cell": {}},
+            "Parathyroid gland": {"Parathyroid chief cell": {}, "Oxyphil cell": {}},
             "Pancreatic islets": {
                 "Alpha cell": {},
                 "Beta cell": {},
                 "Delta cell": {},
                 "Epsilon cell": {},
-                "PP cell": {}
-            }
-        }
+                "PP cell": {},
+            },
+        },
     },
     "Cells derived primarily from ectoderm": {
         "Exocrine secretory epithelial cells": {
@@ -61,7 +51,7 @@ cell_types = {
             "Apocrine sweat gland": {},
             "Gland of Moll": {},
             "Sebaceous gland": {},
-            "Bowman's gland": {}
+            "Bowman's gland": {},
         },
         "Hormone-secreting cells": {
             "pituitary": {
@@ -70,13 +60,11 @@ cell_types = {
                 "Lactotropes": {},
                 "Melanotropes": {},
                 "Somatotropes": {},
-                "Thyrotropes": {}
+                "Thyrotropes": {},
             },
             "Magnocellular neurosecretory cells": {},
-            "Parvocellular neurosecretory cells": {
-                "neurotensin": {}
-            },
-            "Chromaffin cells": {}
+            "Parvocellular neurosecretory cells": {"neurotensin": {}},
+            "Chromaffin cells": {},
         },
         "Epithelial cells": {
             "Keratinocyte": {},
@@ -88,19 +76,16 @@ cell_types = {
                 "Cuticular": {},
                 "Huxley's layer": {},
                 "Henle's layer": {},
-                "Outer root sheath": {}
+                "Outer root sheath": {},
             },
             "Surface epithelial cell": {},
-            "Basal cell (stem cell)":{},
+            "Basal cell (stem cell)": {},
             "Intercalated duct": {},
             "Striated duct": {},
             "Lactiferous duct": {},
-            "Ameloblast": {}
+            "Ameloblast": {},
         },
-        "Oral cells": {
-            "Odontoblast": {},
-            "Cementoblast": {}
-        },
+        "Oral cells": {"Odontoblast": {}, "Cementoblast": {}},
         "Nervous system": {
             "Sensory transducer cells": {
                 "Auditory inner hair cells": {},
@@ -122,12 +107,12 @@ cell_types = {
                 "Chemoreceptor": {},
                 "Outer hair cells": {},
                 "Inner hair cells": {},
-                "Taste receptor cells": {}
+                "Taste receptor cells": {},
             },
             "Autonomic neuron cells": {
                 "Cholinergic neurons": {},
                 "Adrenergic neural cells": {},
-                "Peptidergic neural cells": {}
+                "Peptidergic neural cells": {},
             },
             "Sense organ and peripheral neuron supporting cells": {
                 "Inner pillar cells of organ of Corti": {},
@@ -142,7 +127,7 @@ cell_types = {
                 "Olfactory ensheathing cells": {},
                 "Schwann cells": {},
                 "Satellite glial cells": {},
-                "Enteric glial cells": {}
+                "Enteric glial cells": {},
             },
             "glial cells": {
                 "Neuron": {
@@ -160,12 +145,8 @@ cell_types = {
                         "Double-bouquet cells": {},
                         "Neurogliaform cells": {},
                         "Retina horizontal cells": {},
-                        "Amacrine cells": {
-                            "Starburst amacrine cells": {}
-                        },
-                        "Spinal interneurons": {
-                            "Renshaw cells": {}
-                        }
+                        "Amacrine cells": {"Starburst amacrine cells": {}},
+                        "Spinal interneurons": {"Renshaw cells": {}},
                     },
                     "Principal cells": {
                         "Spindle neurons": {},
@@ -175,47 +156,40 @@ cell_types = {
                             "Grid cells": {},
                             "Speed cells": {},
                             "Head direction cells": {},
-                            "Betz cells": {}
+                            "Betz cells": {},
                         },
-                        "Stellate cells": {
-                            "Boundary cells": {}
-                        },
+                        "Stellate cells": {"Boundary cells": {}},
                         "Bushy cells": {},
                         "Purkinje cells": {},
-                        "Medium spiny neurons": {}
-                    }
+                        "Medium spiny neurons": {},
+                    },
                 },
                 "Astrocytes": {},
                 "Oligodendrocytes": {},
-                "Ependymal cells": {
-                    "Tanycytes": {}
-                },
-                "Pituicytes": {}
+                "Ependymal cells": {"Tanycytes": {}},
+                "Pituicytes": {},
             },
             "Lens cells": {
                 "Anterior lens epithelial cell": {},
-                "Crystallin-containing lens fiber cell": {}
-            }
-        }
+                "Crystallin-containing lens fiber cell": {},
+            },
+        },
     },
     "Cells derived primarily from mesoderm": {
         "Metabolism and storage cells": {
-            "Adipocytes": {
-                "White fat cell": {},
-                "Brown fat cell": {}
-            },
-            "Liver lipocyte": {}
+            "Adipocytes": {"White fat cell": {}, "Brown fat cell": {}},
+            "Liver lipocyte": {},
         },
         "Secretory cells": {
             "Cells of the Adrenal cortex": {
                 "Zona glomerulosa": {},
                 "Zona fasciculata": {},
-                "Zona reticularis": {}
+                "Zona reticularis": {},
             },
             "Theca interna cell": {},
             "Progesterone-secreting coprpus luteum cells": {
                 "Granulosa lutein cells": {},
-                "Theca lutein cells": {}
+                "Theca lutein cells": {},
             },
             "Leydig cell": {},
             "Seminal vesicle": {},
@@ -227,7 +201,7 @@ cell_types = {
             "Juxtaglomerular cell": {},
             "Macula densa cell": {},
             "Peripolar cell": {},
-            "Mesangial cell": {}
+            "Mesangial cell": {},
         },
         "Barrier cells": {
             "Urinary system": {
@@ -238,19 +212,17 @@ cell_types = {
                 "Kidney distal tubule cell": {},
                 "Kidney collecting duct cell": {
                     "Principal cell": {},
-                    "Intercalated cell": {}
+                    "Intercalated cell": {},
                 },
-                "Transitional epithelium": {}
+                "Transitional epithelium": {},
             },
             "Reproductive system": {
                 "Duct cell of seminal vesicle": {},
                 "Efferent ducts": {},
                 "Epididymal principal cell": {},
-                "Epididymal basal cell": {}
+                "Epididymal basal cell": {},
             },
-            "Circulatory system": {
-                "Endothelial cells": {}
-            }
+            "Circulatory system": {"Endothelial cells": {}},
         },
         "Extracellular matrix cells": {
             "Planum semilunatum epithelial cell of vestibular system": {},
@@ -260,9 +232,7 @@ cell_types = {
             "Tendon fibroblasts": {},
             "Bone marrow": {},
             "Other non epithelial fibroblasts": {},
-            "Pericyte": {
-                "Hepatic stellate cell": {}
-            },
+            "Pericyte": {"Hepatic stellate cell": {}},
             "Nucleus pulposus cell": {},
             "Hyaline cartilage": {},
             "Fibrocartilage": {},
@@ -271,7 +241,7 @@ cell_types = {
             "Osteoprogenitor cell": {},
             "Hyalocyte": {},
             "Stellate cell": {},
-            "Pancreatic stellate cell": {}
+            "Pancreatic stellate cell": {},
         },
         "Contractile cells": {
             "Skeletal muscle": {
@@ -280,15 +250,15 @@ cell_types = {
                 "Intermediate skeletal muscle cell": {},
                 "Nuclear bag cell": {},
                 "Nuclear chain cell": {},
-                "Myosatellite cell": {}
+                "Myosatellite cell": {},
             },
             "Cardiac muscle": {
                 "Cardiac muscle cell": {},
                 "SA node cell": {},
-                "Purkinje fiber": {}
+                "Purkinje fiber": {},
             },
             "Smooth muscle cell": {},
-            "Myoepithelial cell": {}
+            "Myoepithelial cell": {},
         },
         "Blood and immune system cells": {
             "Erythrocyte": {},
@@ -311,22 +281,20 @@ cell_types = {
             "B cell": {},
             "Plasma cell": {},
             "Natural killer cell": {},
-            "Hematopoietic stem cells": {}
+            "Hematopoietic stem cells": {},
         },
         "Germ cells (primordially not)": {
             "Oogonium": {},
             "Spermatid": {},
             "Spermatocyte": {},
             "Spermatogonium cell": {},
-            "Spermatozoon": {}
+            "Spermatozoon": {},
         },
         "Nurse cell": {
             "Granulosa cell": {},
             "Sertoli cell": {},
-            "Epithelial reticular cell": {}
+            "Epithelial reticular cell": {},
         },
-        "Interstitial cells": {
-            "Interstitial kidney cells": {}
-        }
-    }
+        "Interstitial cells": {"Interstitial kidney cells": {}},
+    },
 }
