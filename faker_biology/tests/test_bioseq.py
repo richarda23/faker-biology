@@ -8,8 +8,8 @@ Created on Sun Feb 13 10:27:03 2022
 
 import unittest
 from faker import Faker
-from faker_biology.providers.bioseq.bioseq import Bioseq
-import faker_biology.providers.bioseq as bioseq_data
+from faker_biology.bioseq import Bioseq
+import faker_biology.bioseq.bioseq_data as bioseq_data
 
 
 fake = Faker()
