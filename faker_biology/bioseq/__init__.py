@@ -3,7 +3,6 @@ import faker_biology.bioseq.bioseq_data as dna_data
 from faker.providers import BaseProvider
 
 
-
 class Bioseq(BaseProvider):
     """
      Provider of DNA / RNA / protein sequences. 

@@ -1,4 +1,3 @@
-
 MODEL_ORGANISMS_ENGLISH = [
     "Fly",
     "Mouse",

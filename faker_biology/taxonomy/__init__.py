@@ -1,6 +1,6 @@
-
 from faker.providers import BaseProvider
 import faker_biology.taxonomy.taxonomy_data as td
+
 
 class ModelOrganism(BaseProvider):
     """

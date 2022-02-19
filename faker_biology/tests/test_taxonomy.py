@@ -17,6 +17,6 @@ cell_provider = ModelOrganism(None)
 
 
 class ModelOrganismTest(unittest.TestCase):
-   def test_model_organism(self):
+    def test_model_organism(self):
         for i in range(10):
             print(fake.organism_latin())

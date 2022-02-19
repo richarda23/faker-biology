@@ -50,6 +50,7 @@ class Antibody(BaseProvider):
         """
         return self.random_element(ab.DILUTIONS)
 
+
 class RestrictionEnzyme(BaseProvider):
     """
      Restriction enzyme: source is https://github.com/biopython/biopython/blob/master/Bio/Restriction/Restriction_Dictionary.py

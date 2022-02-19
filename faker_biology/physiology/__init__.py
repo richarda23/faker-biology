@@ -11,6 +11,7 @@ from faker_biology import BioProvider
 from faker_biology.physiology.celltype_data import cell_types
 from faker_biology.physiology.organs_data import organ_data
 
+
 class CellType(BioProvider):
     """
      Provider of human cell type names. Source of data is Wikipedia:
@@ -34,7 +35,8 @@ class CellType(BioProvider):
         leaves = []
         self._dict_leaves(cell_types, leaves)
         return self.random_element(leaves)
-    
+
+
 class Organ(BioProvider):
     """
      Provider of human organ names. Source of data is Wikipedia:
