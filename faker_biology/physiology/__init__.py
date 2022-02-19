@@ -6,10 +6,36 @@ Created on Sun Feb 13 10:20:19 2022
 @author: richard
 """
 from typing import Sequence
-from faker_biology.providers.organs import organ_data
-from faker_biology.providers import BioProvider
+
+from faker_biology.physiology.celltype_data import cell_types
+from faker_biology.physiology.organs_data import organ_data
+from faker_biology import BioProvider
 
 
+class CellType(BioProvider):
+    """
+     Provider of human cell type names. Source of data is Wikipedia:
+         https://en.wikipedia.org/wiki/List_of_distinct_cell_types_in_the_adult_human_body
+             
+    """
+
+    def __init__(self, generator):
+        super().__init__(generator)
+
+    def categories(self) -> Sequence[str]:
+        """
+        A list of cell-type categories
+        """
+        return list(cell_types.keys())
+
+    def celltype(self) -> str:
+        """
+        Gets a random human cell type
+        """
+        leaves = []
+        self._dict_leaves(cell_types, leaves)
+        return self.random_element(leaves)
+    
 class Organ(BioProvider):
     """
      Provider of human organ names. Source of data is Wikipedia:
@@ -49,17 +75,3 @@ class Organ(BioProvider):
                 # print (f" leaves by c = {leaves_by_c}")
                 self._nonr_items.extend(leaves_by_c)
         return self._nonr_items
-
-    def _dict_leaves(self, data: dict, leaves=[]):
-        nodes = data.keys()
-        for key in nodes:
-            subnode = data[key]
-            if len(subnode) > 0:
-                self._dict_leaves(subnode, leaves)
-            else:
-                leaves.append(key)
-
-    def _leaves_by_category(self, data: dict, category: str):
-        leaves = []
-        self._dict_leaves(data[category], leaves)
-        return leaves

@@ -8,7 +8,7 @@ Created on Sun Feb 13 10:27:03 2022
 
 import unittest
 from faker import Faker
-from faker_biology.providers.organs.organs import Organ
+from faker_biology.physiology import Organ
 
 
 fake = Faker()
