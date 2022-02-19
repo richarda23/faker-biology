@@ -3,16 +3,76 @@ Biology-related fake data provider for Python Faker
 
 Some providers for biology-related concepts and resources.
 
-Usage:
+## Usage:
 
 Standard code to access Faker
 ```python
-    from faker import Faker
-    fake = Faker()
+ from faker import Faker
+ fake = Faker()
 ```
-from faker_biology.physiology import CellType, Organ
 
+### Physiology: Cell types and  organs
 
-fake.add_provider(CellType)
-fake.add_provider(Organ)
+```python
+ from faker_biology.physiology import CellType, Organ
 
+ fake.add_provider(CellType)
+ fake.add_provider(Organ)
+ 
+ fake.organ()
+ # Sublingual glands
+
+ fake.celltype()
+ # Centroacinar cell
+```
+
+### Biosequences
+
+```python
+ from faker_biology.bioseq import Bioseq
+
+ fake.add_provider(Bioseq)
+
+ fake.dna(10)
+ # ATCGTGTCAT
+
+ fake.rna(10)
+ # AUCGUGUCAU
+
+ fake.protein(10)
+ # MTGHILPSTW
+
+ fake.protein_name()
+ # HYAL4_HUMAN
+```
+
+### Molecular Biology
+
+```python
+ from faker_biology.mol_biol import Antibody, RestrictionEnzyme
+
+ fake.add_provider(RestrictionEnzyme)
+ fake.add_provider(Antibody)
+
+ fake.re()
+ # EcoRI
+ 
+ fake.blunt()
+ # SmaI
+
+ fake.antibody_isotype()
+ # IgG
+```
+### Taxonomy 
+
+```python
+ from faker_biology.taxonomy import ModelOrganism
+
+ fake.add_provider(ModelOrganism)
+ 
+ fake.organism()
+ # Fission yeast
+
+ fake.organism_latin()
+ # Schizosaccharomyces pombe
+```
