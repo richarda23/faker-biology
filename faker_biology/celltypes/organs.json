@@ -1,0 +1,479 @@
+{
+    "Cells derived primarily from endoderm": {},
+    "Exocrine secretory epithelial cells.": {
+        "Brunner's gland": {
+            "enzymes": {},
+            "mucus](alkaline_mucus \"wikilink\"))": {}
+        },
+        "goblet cell": {
+            "respiratory": {},
+            "digestive": {},
+            "secretion)": {}
+        },
+        "Stomach": {
+            "Foveolar cell": {
+                "secretion)": {}
+            },
+            "Chief cell": {
+                "pepsinogen": {}
+            },
+            "Parietal cell": {
+                "hydrochloric acid": {}
+            }
+        },
+        "Pancreatic acinar": {
+            "bicarbonate": {},
+            "enzyme](digestive_enzyme \"wikilink\") secretion)": {}
+        },
+        "Paneth cell": {
+            "lysozyme": {},
+            "secretion)": {}
+        },
+        "pneumocyte": {
+            "surfactant": {},
+            "secretion)": {}
+        },
+        "Club cell": {}
+    },
+    "Barrier cells": {},
+    "Hormone-secreting cells": {},
+    "Cells derived primarily from ectoderm": {},
+    "Exocrine secretory epithelial cells": {
+        "pituitary": {
+            "Corticotropes": {},
+            "Gonadotropes": {},
+            "Lactotropes": {},
+            "Melanotropes": {},
+            "Somatotropes": {},
+            "Thyrotropes": {}
+        },
+        "[Magnocellular neurosecretory": {
+            "cells](Magnocellular_neurosecretory_cell \"wikilink\"), secrete": {},
+            "oxytocin": {},
+            "vasopressin": {}
+        },
+        "[Parvocellular neurosecretory": {
+            "cells](Parvocellular_neurosecretory_cell \"wikilink\"), secrete": {},
+            "[thyrotropin-releasing": {},
+            "hormone](thyrotropin-releasing_hormone \"wikilink\") (TRH),": {},
+            "[corticotropin-releasing": {},
+            "hormone](corticotropin-releasing_hormone \"wikilink\") (CRH),": {},
+            "neurotensin": {},
+            "prolactin": {}
+        },
+        "Chromaffin cells": {
+            "gland](adrenal_gland \"wikilink\"))": {}
+        }
+    },
+    "Epithelial cells": {
+        "Keratinocyte": {
+            "epidermal": {}
+        },
+        "basal cell": {
+            "stem cell": {}
+        },
+        "Melanocyte": {},
+        "Trichocyte": {
+            "nail cells)": {},
+            "Medullary": {},
+            "Cortical": {},
+            "Cuticular": {},
+            "Huxley's layer": {
+                "cell": {}
+            },
+            "Henle's layer": {},
+            "Outer root sheath": {}
+        },
+        "epithelial cell": {
+            "tongue": {},
+            "nasal cavity": {},
+            "anal canal": {},
+            "urethra": {},
+            "vagina": {}
+        },
+        "basal cell (stem cell) of cornea, tongue, mouth, nasal cavity,": {
+            "distal anal canal, distal urethra, and distal vagina": {}
+        },
+        "Intercalated duct": {
+            "glands)": {}
+        },
+        "Striated duct": {},
+        "Lactiferous duct": {
+            "glands)": {}
+        },
+        "Ameloblast": {
+            "enamel](tooth_enamel \"wikilink\"))": {}
+        }
+    },
+    "Oral cells": {
+        "Odontoblast": {
+            "dentin": {}
+        },
+        "Cementoblast": {
+            "cementum": {}
+        }
+    },
+    "Nervous system": {
+        "neurons": {},
+        "present in our human body. They are branched out. These cells make up": {},
+        "nervous tissue": {},
+        "body with a nucleus and cytoplasm, from which long thin hair-like parts": {},
+        "arise.": {}
+    },
+    "Sensory transducer cells": {
+        "Auditory inner hair cells": {
+            "Corti](organ_of_Corti \"wikilink\")": {}
+        },
+        "Auditory outer hair cells": {
+            "Corti](organ_of_Corti \"wikilink\")": {}
+        },
+        "Basal cells of [olfactory": {
+            "epithelium](olfactory_epithelium \"wikilink\") (stem cell for": {},
+            "olfactory neurons)": {}
+        },
+        "sensory neurons": {},
+        "Merkel cells": {},
+        "Olfactory receptor neurons": {},
+        "Photoreceptor cells": {
+            "eye": {},
+            "rod cells": {},
+            "cone cells": {
+                "of eye": {}
+            }
+        },
+        "Proprioceptive": {
+            "neurons](sensory_neuron \"wikilink\")": {}
+        },
+        "Chemoreceptor": {
+            "cells](glomus_cell \"wikilink\") of [carotid body": {},
+            "cell](carotid_body \"wikilink\") (blood pH sensor)": {}
+        },
+        "Outer hair cells": {
+            "system](vestibular_system \"wikilink\") of ear (acceleration and": {},
+            "gravity)": {}
+        },
+        "Inner hair cells": {
+            "system](vestibular_system \"wikilink\") of ear (acceleration and": {},
+            "gravity)": {}
+        },
+        "Taste receptor cells": {
+            "bud](taste_bud \"wikilink\")": {}
+        }
+    },
+    "Autonomic neuron cells": {
+        "Cholinergic neurons": {},
+        "Adrenergic": {},
+        "Peptidergic": {}
+    },
+    "Sense organ and peripheral neuron supporting cells": {
+        "organ of Corti": {},
+        "Outer pillar cells of organ of Corti": {},
+        "Inner phalangeal cells of organ of Corti": {},
+        "Outer phalangeal cells of organ of Corti": {},
+        "Border cells of organ of Corti": {},
+        "Hensen's cells": {},
+        "Vestibular apparatus supporting cells": {},
+        "Taste bud supporting cells": {},
+        "Olfactory epithelium supporting cells": {},
+        "Olfactory ensheathing cells": {},
+        "Schwann cells": {},
+        "Satellite glial cells": {},
+        "Enteric glial cells": {}
+    },
+    "glial cells": {
+        "Neuron": {
+            "poorly classified)": {},
+            "Interneurons": {
+                "Basket cells": {},
+                "Cartwheel cells": {},
+                "Stellate cells": {},
+                "Golgi cells": {},
+                "Granule cells": {},
+                "Lugaro cells": {},
+                "Unipolar brush cells": {},
+                "Martinotti cells": {},
+                "Chandelier cells": {},
+                "Cajal\u2013Retzius cells": {},
+                "Double-bouquet cells": {},
+                "Neurogliaform cells": {},
+                "Retina horizontal cells": {},
+                "Amacrine cells": {
+                    "[Starburst amacrine": {
+                        "cells](Starburst_amacrine_cell \"wikilink\")": {}
+                    }
+                },
+                "Spinal interneurons": {
+                    "Renshaw cells": {}
+                }
+            },
+            "Principal cells": {
+                "Spindle neurons": {},
+                "Fork neurons": {},
+                "Pyramidal cells": {
+                    "Place cells": {},
+                    "Grid cells": {},
+                    "Speed cells": {},
+                    "Head direction cells": {},
+                    "Betz cells": {}
+                },
+                "Stellate cells": {
+                    "Boundary cells": {}
+                },
+                "Bushy cells": {},
+                "Purkinje cells": {},
+                "Medium spiny neurons": {}
+            }
+        },
+        "Astrocytes": {},
+        "Oligodendrocytes": {},
+        "Ependymal cells": {
+            "Tanycytes": {}
+        },
+        "Pituicytes": {}
+    },
+    "Lens cells": {
+        "[Anterior lens epithelial": {
+            "cell](Anterior_lens_epithelial_cell \"wikilink\")": {}
+        },
+        "[Crystallin-containing lens fiber": {
+            "cell](Crystallin-containing_lens_fiber_cell \"wikilink\")": {}
+        }
+    },
+    "Cells derived primarily from mesoderm": {},
+    "Metabolism and storage cells": {
+        "Adipocytes": {
+            "White fat cell": {},
+            "Brown fat cell": {}
+        },
+        "Liver lipocyte": {}
+    },
+    "Secretory cells": {
+        "Adrenal cortex": {
+            "Cells of the Zona glomerulosa produce": {
+                "mineralocorticoids": {}
+            },
+            "Cells of the Zona fasciculata produce": {
+                "glucocorticoids": {}
+            },
+            "Cells of the Zona reticularis produce": {
+                "androgens": {}
+            }
+        },
+        "Theca interna cell": {
+            "follicle](ovarian_follicle \"wikilink\") secreting": {},
+            "estrogen": {}
+        },
+        "Corpus luteum cell of ruptured ovarian follicle secreting": {
+            "progesterone": {},
+            "Granulosa lutein cells": {},
+            "Theca lutein cells": {}
+        },
+        "testes": {
+            "testosterone": {}
+        },
+        "Seminal vesicle": {
+            "fluid": {},
+            "fructose": {},
+            "sperm": {}
+        },
+        "Prostate gland": {
+            "fluid components)": {}
+        },
+        "Bulbourethral gland": {
+            "mucus": {}
+        },
+        "Bartholin's gland": {
+            "lubricant](vaginal_lubricant \"wikilink\") secretion)": {}
+        },
+        "Gland of Littre": {},
+        "endometrium": {
+            "carbohydrate": {}
+        },
+        "Juxtaglomerular cell": {
+            "renin": {}
+        },
+        "Macula densa cell": {},
+        "Peripolar cell": {},
+        "Mesangial cell": {}
+    },
+    "Urinary system": {
+        "Parietal epithelial cell": {},
+        "Podocyte": {},
+        "[Proximal tubule brush border": {
+            "cell](Proximal_tubule#Brush_border_cell \"wikilink\")": {}
+        },
+        "Loop of Henle thin segment cell": {},
+        "Kidney distal tubule cell": {},
+        "Kidney collecting duct cell": {
+            "[Principal": {
+                "cell](Collecting_duct_system#Principal_cells \"wikilink\")": {}
+            },
+            "[Intercalated": {
+                "cell](Collecting_duct_system#Intercalated_cells \"wikilink\")": {}
+            }
+        },
+        "Transitional epithelium": {
+            "urinary bladder": {}
+        }
+    },
+    "Reproductive system": {
+        "seminal vesicle": {
+            "prostate gland": {}
+        },
+        "Efferent ducts": {},
+        "Epididymal principal cell": {},
+        "Epididymal basal cell": {}
+    },
+    "Circulatory system": {
+        "Endothelial cells": {}
+    },
+    "Extracellular matrix cells": {
+        "Planum semilunatum epithelial cell of [vestibular": {
+            "system](vestibular_system \"wikilink\") of ear (proteoglycan": {},
+            "secretion)": {}
+        },
+        "Organ of Corti": {
+            "cell (secreting tectorial membrane covering hair cells)": {}
+        },
+        "Loose connective tissue": {
+            "fibroblasts": {}
+        },
+        "Corneal": {
+            "keratocytes](corneal_keratocyte \"wikilink\"))": {}
+        },
+        "Tendon fibroblasts": {},
+        "Bone marrow": {
+            "tissue](reticular_tissue \"wikilink\")": {},
+            "fibroblasts": {}
+        },
+        "fibroblasts": {},
+        "Pericyte": {
+            "Hepatic stellate cell": {
+                "cell)": {}
+            }
+        },
+        "Nucleus pulposus cell": {
+            "intervertebral disc": {}
+        },
+        "Hyaline cartilage": {
+            "chondrocyte": {}
+        },
+        "Fibrocartilage": {
+            "chondrocyte": {}
+        },
+        "Elastic cartilage": {
+            "chondrocyte": {}
+        },
+        "osteocyte": {},
+        "Osteoprogenitor cell": {
+            "osteoblasts": {}
+        },
+        "Hyalocyte": {
+            "body](vitreous_body \"wikilink\") of eye": {}
+        },
+        "Stellate cell": {
+            "ear": {}
+        },
+        "Pancreatic stellate cell": {},
+        "Cephalic": {},
+        "Cranial neural crest": {},
+        "ectoderm": {},
+        "layer](germ_layer \"wikilink\")": {}
+    },
+    "Contractile cells": {
+        "Skeletal muscle": {
+            "Red skeletal muscle cell": {
+                "(slow twitch)": {}
+            },
+            "White skeletal muscle cell": {
+                "(fast twitch)": {}
+            },
+            "[Intermediate skeletal muscle": {
+                "cell](Myocyte#Fiber_typing \"wikilink\")": {}
+            },
+            "Nuclear bag cell": {
+                "spindle](muscle_spindle \"wikilink\")": {}
+            },
+            "Nuclear chain cell": {
+                "spindle](muscle_spindle \"wikilink\")": {}
+            },
+            "Myosatellite cell": {}
+        },
+        "Cardiac muscle": {
+            "Cardiac muscle cell": {},
+            "SA node cell": {},
+            "Purkinje fiber": {}
+        },
+        "Smooth muscle cell": {},
+        "Myoepithelial cell": {
+            "glands](exocrine_glands \"wikilink\")": {}
+        }
+    },
+    "Blood and immune system cells": {
+        "Erythrocyte": {
+            "erythroblasts": {}
+        },
+        "Megakaryocyte": {
+            "platelet": {}
+        },
+        "Platelets": {
+            "currently there's debate on the subject.": {}
+        },
+        "Monocyte": {},
+        "macrophage": {
+            "types)": {}
+        },
+        "Langerhans cell": {},
+        "Osteoclast": {},
+        "Dendritic cell": {
+            "tissues](lymphoid_tissue \"wikilink\"))": {}
+        },
+        "Microglial cell": {
+            "system](central_nervous_system \"wikilink\"))": {}
+        },
+        "Neutrophil granulocyte": {
+            "myeloblast": {},
+            "promyelocyte": {},
+            "myelocyte": {},
+            "metamyelocyte": {}
+        },
+        "Eosinophil granulocyte": {
+            "precursors": {}
+        },
+        "Basophil granulocyte": {
+            "precursors": {}
+        },
+        "Mast cell": {},
+        "Helper T cell": {},
+        "Regulatory T cell": {},
+        "Cytotoxic T cell": {},
+        "Natural killer T cell": {},
+        "B cell": {},
+        "Plasma cell": {},
+        "Natural killer cell": {},
+        "Hematopoietic stem cells": {
+            "committed progenitors": {},
+            "blood": {},
+            "system](immune_system \"wikilink\") (various types)": {}
+        }
+    },
+    "Germ cells (primordially not)": {
+        "Oocyte": {},
+        "Spermatid": {},
+        "Spermatocyte": {},
+        "Spermatogonium cell": {
+            "spermatocyte)": {}
+        },
+        "Spermatozoon": {}
+    },
+    "Nurse cell": {
+        "Granulosa cell": {},
+        "Sertoli cell": {},
+        "Epithelial reticular cell": {
+            "(in thymus)": {}
+        }
+    },
+    "Interstitial cells": {
+        "Interstitial kidney cells": {}
+    }
+}

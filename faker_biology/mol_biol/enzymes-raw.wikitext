@@ -1,0 +1,706 @@
+{{short description|Wikimedia list article}}
+{{Update|reason=Is missing the recent classification changes resulting from the creation of EC 7|date=February 2019}}
+
+This article lists enzymes by their classification in the [[International Union of Biochemistry and Molecular Biology]]'s Enzyme Commission [EC] numbering system.
+
+* [[List of EC numbers (EC 5)]]
+* [[List of EC numbers (EC 6)]]
+
+==[[:Category:Oxidoreductases]] (EC 1) ([[Oxidoreductase]])==
+*[[Dehydrogenase]]
+*[[Luciferase]]
+*[[DMSO reductase]]
+
+===[[:Category:EC 1.1]] (act on the CH-OH group of donors)===
+*'''[[:Category:EC 1.1.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+**[[Alcohol dehydrogenase|Alcohol dehydrogenase (NAD)]] {{EC number|1.1.1.1}}
+**[[Alcohol dehydrogenase|Alcohol dehydrogenase (NADP)]] {{EC number|1.1.1.2}}
+**[[Homoserine dehydrogenase]] {{EC number|1.1.1.3}}
+**[[(R,R)-butanediol dehydrogenase|Aminopropanol oxidoreductase]] {{EC number|1.1.1.4}}
+**[[Diacetyl reductase]] {{EC number|1.1.1.5}}
+**[[Glycerol dehydrogenase]] {{EC number|1.1.1.6}}
+**[[Propanediol-phosphate dehydrogenase]] {{EC number|1.1.1.7}}
+**[[glycerol-3-phosphate dehydrogenase (NAD+)]] {{EC number|1.1.1.8}}
+**[[D-xylulose reductase]] {{EC number|1.1.1.9}}
+**[[L-xylulose reductase]] {{EC number|1.1.1.10}}
+**[[Lactate dehydrogenase]] {{EC number|1.1.1.27}}
+**[[Malate dehydrogenase]] {{EC number|1.1.1.37}}
+**[[Isocitrate dehydrogenase]] {{EC number|1.1.1.42}}
+**[[HMG-CoA reductase]] {{EC number|1.1.1.88}}
+*'''[[:Category:EC 1.1.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.1.3]]''' (with [[oxygen]] as acceptor)
+**[[Glucose oxidase]] {{EC number|1.1.3.4}}
+**[[L-gulonolactone oxidase]] {{EC number|1.1.3.8}}
+**[[Thiamine oxidase]] {{EC number|1.1.3.23}}
+**[[Xanthine oxidase]] {{EC number|1.1.3.32}}
+*'''[[:Category:EC 1.1.4]]''' (with a [[disulfide]] as acceptor)
+*'''[[:Category:EC 1.1.5]]''' (with a [[quinone]] or similar compound as acceptor)
+*'''[[:Category:EC 1.1.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.2]] (act on the aldehyde or oxo group of donors)===
+*'''[[:Category:EC 1.2.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+**[[Acetaldehyde dehydrogenase]] {{EC number|1.2.1.10}}
+**[[Glyceraldehyde 3-phosphate dehydrogenase]] {{EC number|1.2.1.12}}
+**[[Pyruvate dehydrogenase]] {{EC number|1.2.1.51}}
+*'''[[:Category:EC 1.2.4]]'''
+**[[Oxoglutarate dehydrogenase]] {{EC number|1.2.4.2}}
+
+===[[:Category:EC 1.3]] (act on the CH-CH group of donors)===
+*'''[[:Category:EC 1.3.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+**[[Biliverdin reductase]] {{EC number|1.3.1.24}}
+*'''[[:Category:EC 1.3.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.3.3]]''' (with [[oxygen]] as acceptor)
+**[[Protoporphyrinogen oxidase]] {{EC number|1.3.3.4}}
+*'''[[:Category:EC 1.3.5]]''' (with a [[quinone]] or similar compound as acceptor)
+*'''[[:Category:EC 1.3.7]]''' (with an [[iron-sulfur protein]] as acceptor)
+*'''[[:Category:EC 1.3.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.4]] (act on the CH-NH<sub>2</sub> group of donors)===
+*'''[[:Category:EC 1.4.3]]'''
+**[[Monoamine oxidase]] {{EC number|1.4.3.4}}
+
+===[[:Category:EC 1.5]] (act on CH-NH group of donors)===
+*'''[[:Category:EC 1.5.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+**[[Dihydrofolate reductase]] {{EC number|1.5.1.3}}
+**[[Methylenetetrahydrofolate reductase]] {{EC number|1.5.1.20}}
+*'''[[:Category:EC 1.5.3]]''' (with [[oxygen]] as acceptor)
+**[[Sarcosine oxidase]] {{EC number|1.5.3.1}}
+**[[Dihydrobenzophenanthridine oxidase]] {{EC number|1.5.3.12}}
+*'''[[:Category:EC 1.5.4]]''' (with a [[disulfide]] as acceptor)
+*'''[[:Category:EC 1.5.5]]''' (with a [[quinone]] or similar compound as acceptor)
+*'''[[:Category:EC 1.5.7]]''' (with an [[iron-sulfur protein]] as acceptor)
+*'''[[:Category:EC 1.5.8]]''' (with a [[Flavin group|flavin]] as acceptor)
+*'''[[:Category:EC 1.5.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.6]] (act on NADH or NADPH)===
+*'''[[:Category:EC 1.6.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+*'''[[:Category:EC 1.6.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.6.3]]''' (with [[oxygen]] as acceptor)
+*'''Category:EC 1.6.4''' now [[:Category:EC 1.8.1]]
+*'''[[:Category:EC 1.6.5]]''' (with a [[quinone]] or similar compound as acceptor)
+**[[NADH dehydrogenase]] {{EC number|1.6.5.3}}
+*'''[[:Category:EC 1.6.6]]''' (with a [[nitrogen]]ous group as acceptor)
+*'''Category:EC 1.6.7''' now [[:Category:EC 1.18.1]]
+*'''Category:EC 1.6.8''' now [[:Category:EC 1.5.1]]
+*'''[[:Category:EC 1.6.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.7]] (act on other nitrogenous compounds as donors)===
+*'''[[:Category:EC 1.7.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+*'''[[:Category:EC 1.7.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.7.3]]''' (with [[oxygen]] as acceptor)
+**[[Urate oxidase]] {{EC number|1.7.3.3}}
+*'''[[:Category:EC 1.7.7]]''' (with an [[iron-sulfur protein]] as acceptor)
+*'''[[:Category:EC 1.7.99]]''' (with other acceptors)
+**[[Nitrite reductase]] {{EC number|1.7.99.3}}
+**[[Nitrate reductase]] {{EC number|1.7.99.4}}
+
+===[[:Category:EC 1.8]] (act on a sulfur group of donors)===
+*'''[[:Category:EC 1.8.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+**[[Glutathione reductase]] {{EC number|1.8.1.7}}
+**[[Thioredoxin reductase]] {{EC number|1.8.1.9}}
+*'''[[:Category:EC 1.8.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.8.3]]''' (with [[oxygen]] as acceptor)
+**[[Sulfite oxidase]] {{EC number|1.8.3.1}}
+*'''[[:Category:EC 1.8.4]]''' (with a [[disulfide]] as acceptor)
+*'''[[:Category:EC 1.8.5]]''' (with a [[quinone]] or similar compound as acceptor)
+*'''Category:EC 1.8.6''' deleted, included in [[EC 2.5.1.18]]
+*'''[[:Category:EC 1.8.7]]''' (with an [[iron-sulfur protein]] as acceptor)
+*'''[[:Category:EC 1.8.98]]''' (with other, known, acceptors)
+*'''[[:Category:EC 1.8.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.9]] (act on a [[heme]] group of donors)===
+*'''[[:Category:EC 1.9.3]]''' (with [[oxygen]] as acceptor)
+**[[Cytochrome c oxidase]] {{EC number|1.9.3.1}}
+*'''[[:Category:EC 1.9.6]]''' (with a [[nitrogen]]ous as acceptor)
+*'''Category:EC 1.9.99''' transferred, now [[EC 1.9.98.1]]
+
+===[[:Category:EC 1.10]] (act on [[benzenediol|diphenol]]s and related substances as donors)===
+*'''[[:Category:EC 1.10.1]]'''(with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+*'''[[:Category:EC 1.10.2]]''' (with a [[cytochrome]] as acceptor)
+**[[Coenzyme Q - cytochrome c reductase]] {{EC number|1.10.2.2}}
+*'''[[:Category:EC 1.10.3]]''' (with [[oxygen]] as acceptor)
+**[[Catechol oxidase]] {{EC number|1.10.3.1}}
+**[[Laccase]] {{EC number|1.10.3.2}}
+*'''[[:Category:EC 1.10.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.11]] (act on [[peroxide]] as an acceptor -- [[peroxidase]]s)===
+*'''[[:Category:EC 1.11.1]]''' ([[peroxidase]]s)
+**[[Cytochrome c peroxidase]] {{EC number|1.11.1.5}}
+**[[Catalase]] {{EC number|1.11.1.6}}
+**[[Myeloperoxidase]] {{EC number|1.11.1.7}}
+**[[Thyroid peroxidase]] {{EC number|1.11.1.8}}
+**[[Glutathione peroxidase]] {{EC number|1.11.1.9}}
+
+===[[:Category:EC 1.12]] (act on hydrogen as a donor)===
+*'''[[:Category:EC 1.12.1]]''' (with [[Nicotinamide adenine dinucleotide|NAD<sup>+</sup>]] or [[Nicotinamide adenine dinucleotide|NADP<sup>+</sup>]] as acceptor)
+*'''[[:Category:EC 1.12.2]]''' (with a [[cytochrome]] as acceptor)
+*'''[[:Category:EC 1.12.5]]''' (with a [[quinone]] or similar compound as acceptor)
+*'''[[:Category:EC 1.12.7]]''' (with an [[iron-sulfur protein]] as acceptor)
+*'''[[:Category:EC 1.12.98]]''' (with other known acceptors)
+*'''[[:Category:EC 1.12.99]]''' (with other acceptors)
+
+===[[:Category:EC 1.13]] (act on single donors with incorporation of molecular oxygen)===
+*'''[[:Category:EC 1.13.11]]''' (With incorporation of two atoms of oxygen)
+**[[4-hydroxyphenylpyruvate dioxygenase]] ({{EC number|1.13.11.27}})
+*'''[[:Category:EC 1.13.12]]''' (With incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases))
+**[[Renilla-luciferin 2-monooxygenase]] {{EC number|1.13.12.5}}
+**[[Cypridina-luciferin 2-monooxygenase]] {{EC number|1.13.12.6}}
+**[[Firefly luciferase]] {{EC number|1.13.12.7}}
+**[[Watasenia-luciferin 2-monooxygenase]] {{EC number|1.13.12.8}}
+**[[Oplophorus-luciferin 2-monooxygenase]] {{EC number|1.13.12.13}}
+
+===[[:Category:EC 1.14]] (act on paired donors with incorporation of molecular oxygen)===
+*[[Cytochrome P450 oxidase]]
+*'''[[:Category:Cytochrome P450]]'''
+**[[Aromatase]] {{EC number|1.14.14.1}}
+**[[CYP2D6]] {{EC number|1.14.14.1}}
+**[[CYP2E1]] {{EC number|1.14.14.1}}
+**[[CYP3A4]] {{EC number|1.14.14.1}}
+**[[Cytochrome P450 oxidase]]
+*'''[[:Category:EC 1.14.12]]'''
+**[[Nitric oxide dioxygenase]]
+*'''[[:Category:EC 1.14.13]]'''
+**[[Nitric oxide synthase]] {{EC number|1.14.13.39}}
+*'''[[:Category:EC 1.14.14]]'''
+**[[Aromatase]] {{EC number|1.14.14.1}}
+**[[CYP2D6]] {{EC number|1.14.14.1}}
+**[[CYP2E1]] {{EC number|1.14.14.1}}
+**[[CYP3A4]] {{EC number|1.14.14.1}}
+*'''[[:Category:EC 1.14.16]]'''
+**[[Phenylalanine hydroxylase]] {{EC number|1.14.16.1}}
+*'''[[:Category:EC 1.14.18]]'''
+**[[Tyrosinase]] {{EC number|1.14.18.1}}
+
+===[[:Category:EC 1.15]] (act on superoxide radicals as acceptors)===
+*'''[[:Category:EC 1.15.1]]'''
+**[[Superoxide dismutase]] {{EC number|1.15.1.1}}
+
+===[[:Category:EC 1.16]] (oxidize metal ions)===
+*'''[[:Category:EC 1.16.3]]'''
+**[[Ceruloplasmin]] {{EC number|1.16.3.1}}
+
+===[[:Category:EC 1.17]] (act on CH or CH<sub>2</sub> groups)===
+*'''[[:Category:EC 1.17.1]]'''
+**[[Leucoanthocyanidin reductase]] {{EC number|1.17.1.3}}
+**[[Xanthine dehydrogenase]] {{EC number|1.17.1.4}}
+**[[Nicotinate dehydrogenase]] {{EC number|1.17.1.5}}
+**[[4-hydroxy-tetrahydrodipicolinate reductase]] {{EC number|1.17.1.8}}
+*'''[[:Category:EC 1.17.2]]'''
+**[[Nicotinate dehydrogenase (cytochrome)]] {{EC number|1.17.2.1}}
+*'''[[:Category:EC 1.17.3]]'''
+**[[Xanthine oxidase]] {{EC number|1.17.3.2}}
+*'''[[:Category:EC 1.17.4]]'''
+**[[Ribonucleotide reductase]] {{EC number|1.17.4.1}}
+**[[Ribonucleoside-triphosphate reductase]] {{EC number|1.17.4.2}}
+**[[Vitamin K epoxide reductase]]
+**[[Vitamin-K-epoxide reductase (warfarin-sensitive)]] {{EC number|1.17.4.4}}
+**[[Vitamin-K-epoxide reductase (warfarin-insensitive)]] {{EC number|1.17.4.5}}
+**[[RRM1]]
+**[[RRM2]]
+**[[RRM2B]]
+*'''[[:Category:EC 1.17.5]]'''
+**[[Caffeine dehydrogenase]] {{EC number|1.17.5.2}}
+*'''[[:Category:EC 1.17.7]]'''
+*'''[[:Category:EC 1.17.99]]'''
+
+===[[:Category:EC 1.18]] (act on iron-sulfur proteins as donors)===
+*'''[[:Category:EC 1.18.6]]'''
+**[[Nitrogenase]] {{EC number|1.18.6.1}}
+
+===[[:Category:EC 1.19]] (act on reduced flavodoxin as donor)===
+*'''[[:Category:EC 1.19.6]]'''
+**[[Nitrogenase (flavodoxin)]] {{EC number|1.19.6.1}}
+
+===[[:Category:EC 1.20]] (act on phosphorus or arsenic as donors)===
+*'''[[:Category:EC 1.20.1]]'''
+*'''[[:Category:EC 1.20.2]]'''
+*'''[[:Category:EC 1.20.4]]'''
+**[[Arsenate reductase (glutaredoxin)]] {{EC number|1.20.4.1}}
+**[[Glutaredoxin]] 
+*'''[[:Category:EC 1.20.9]]'''
+*'''[[:Category:EC 1.20.99]]'''
+
+===[[:Category:EC 1.21]] (act on X-H and Y-H to form an X-Y bond)===
+*'''[[:Category:EC 1.21.1]]'''
+**[[Iodotyrosine deiodinase]] {{EC number|1.21.1.1}}
+*'''[[:Category:EC 1.21.3]]'''
+**[[Isopenicillin N synthase]] {{EC number|1.21.3.1}}
+**[[Tetrahydrocannabinolic acid synthase]] {{EC number|1.21.3.7}}
+*'''[[:Category:EC 1.21.4]]'''
+*'''[[:Category:EC 1.21.99]]'''
+**[[Thyroxine 5-deiodinase]] {{EC number|1.21.99.3}}
+**[[Iodothyronine deiodinase]] {{EC number|1.21.99.3}} and {{EC number|1.21.99.4}}
+
+===[[:Category:EC 1.97]] (other oxidoreductases)===
+*'''[[:Category:EC 1.97.1]]'''
+**[[Deiodinase]] {{EC number|1.97.1.10}}
+
+==[[:Category:Transferases]] (EC 2) ([[Transferase]])==
+* [[Glutathione S-transferase]]
+
+===[[:Category:EC 2.1]] (transfer one-carbon groups, [[Methylase]])===
+*'''[[:Category:EC 2.1.1]]'''
+**[[Catechol-O-methyl transferase]] {{EC number|2.1.1.6}}
+**[[DNA methyltransferase]] {{EC number|2.1.1.72}}, {{EC number|2.1.1.113}},  {{EC number|2.1.1.37}}
+**[[Histone methyltransferase]]  {{EC number|2.1.1.43}},  {{EC number|2.1.1.125}}
+*'''[[:Category:EC 2.1.3]]'''
+**[[Aspartate transcarbamoylase]] {{EC number|2.1.3.2}}
+**[[Ornithine transcarbamoylase]]  {{EC number|2.1.3.3}}
+
+===[[:Category:EC 2.2]] (transfer [[aldehyde]] or [[ketone]] groups)===
+*'''[[:Category:EC 2.2.1]]'''
+**[[Transketolase]] {{EC number|2.2.1.1}}
+**[[Transaldolase]] {{EC number|2.2.1.2}}
+**[[Acetolactate synthase]] {{EC number|2.2.1.6}}
+**[[2-Succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase]] {{EC number|2.2.1.9}}
+
+===[[:Category:EC 2.3]] (acyltransferases)===
+*'''[[:Category:EC 2.3.1]]'''
+**[[Aminolevulinic acid synthase]] {{EC number|2.3.1.37}}
+**[[Choline acetyltransferase]] {{EC number|2.3.1.6}}
+*'''[[:Category:EC 2.3.2]]'''
+**[[Factor XIII]] {{EC number|2.3.2.13}}
+**[[Gamma glutamyl transpeptidase]] {{EC number|2.3.2.2}}
+**[[Transglutaminase]] {{EC number|2.3.2.13}}
+
+===[[:Category:EC 2.4]] (glycosyltransferases)===
+*'''[[:Category:EC 2.4.2]]'''
+**[[Hypoxanthine-guanine phosphoribosyltransferase]] {{EC number|2.4.2.8}}
+'''[[:Category:EC 2.5]]'''
+*'''[[:Category:EC 2.5.1]]'''
+**[[Thiaminase]] {{EC number|2.5.1.2}}
+
+===[[:Category:EC 2.5]] (transfer [[alkyl]] or [[aryl]] groups, other than [[methyl]] groups)===
+**[[Flavin prenyltransferase]] {{EC number|2.5.1.129}}
+
+===[[:Category:EC 2.6]] (transfer nitrogenous groups)===
+*'''[[:Category:EC 2.6.1]]'''
+**[[Alanine transaminase]] {{EC number|2.6.1.2}}
+**[[Aspartate transaminase]] {{EC number|2.6.1.1}}
+
+===[[:Category:EC 2.7]] (transfer phosphorus-containing groups)===
+*'''[[:Category:EC 2.7.2]]'''
+**[[Butyrate kinase]] ({{EC number|2.7.2.7}})
+
+===[[:Category:EC 2.8]] (transfer sulfur-containing groups)===
+* {{EC number|2.8.1.1}}: [[Thiosulfate sulfurtransferase]]
+* {{EC number|2.8.1.2}}: [[3-mercaptopyruvate sulfurtransferase]]
+* {{EC number|2.8.1.3}}: [[Thiosulfate--thiol sulfurtransferase]]
+* {{EC number|2.8.1.4}}: [[tRNA uracil 4-sulfurtransferase]]
+* {{EC number|2.8.1.5}}: [[Thiosulfate--dithiol sulfurtransferase]]
+* {{EC number|2.8.1.6}}: [[Biotin synthase]]
+* {{EC number|2.8.1.7}}: [[Cysteine desulfurase]]
+* {{EC number|2.8.1.8}}: [[Lipoyl synthase]]
+* {{EC number|2.8.1.9}}: [[Molybdenum cofactor sulfurtransferase]]
+* {{EC number|2.8.1.10}}: [[Thiazole synthase]]
+* {{EC number|2.8.1.11}}: [[Molybdopterin synthase sulfurtransferase]]
+* {{EC number|2.8.1.12}}: [[Molybdopterin synthase]]
+* {{EC number|2.8.1.13}}: [[tRNA-uridine 2-sulfurtransferase]]
+* {{EC number|2.8.1.14}}: [[tRNA-5-taurinomethyluridine 2-sulfurtransferase]]
+* {{EC number|2.8.1.15}}: [[tRNA-5-methyluridine(54) 2-sulfurtransferase]]
+
+===[[:Category:EC 2.9]] (transfer selenium-containing groups)===
+* {{EC number|2.9.1.1}}: [[L-seryl-tRNA(Sec) selenium transferase]]
+* {{EC number|2.9.1.2}}: [[O-phospho-L-seryl-tRNA(Sec):L-selenocysteinyl-tRNA synthase]]
+
+==[[:Category:Hydrolases]] (EC 3) ([[Hydrolase]]) ==
+* [[Hydrolytic enzyme]]
+
+===[[:Category:EC 3.1]] (act on [[ester]] bonds)===
+*[[Nuclease]]
+*[[Endonuclease]]
+*[[Exonuclease]]
+*'''[[:Category:EC 3.1.1]]'''
+**[[Acid hydrolase]]
+**[[Phospholipase]] A ({{EC number|3.1.1.4}})
+**[[Acetylcholinesterase]] ({{EC number|3.1.1.7}})
+**[[Cholinesterase]] ({{EC number|3.1.1.8}})
+**[[Lipoprotein lipase]] ({{EC number|3.1.1.34}})
+*'''[[:Category:EC 3.1.2]]'''
+**[[Ubiquitin carboxy-terminal hydrolase L1]] ({{EC number|3.1.2.15}})
+*'''[[:Category:EC 3.1.3]]'''
+**[[Phosphatase]]
+**[[Alkaline phosphatase]] ({{EC number|3.1.3.1}})
+**[[Fructose 1,6-bisphosphatase|Fructose bisphosphatase]] ({{EC number|3.1.3.11}})
+*'''[[:Category:EC 3.1.4]]'''
+**[[Phospholipase]] C ({{EC number|3.1.4.3}})
+**[[CGMP specific phosphodiesterase type 5]] ({{EC number|3.1.4.17}})
+**[[Phospholipase]] D ({{EC number|3.1.4.50}})
+*'''[[:Category:EC 3.1.21]]'''
+**[[Restriction enzyme]] Type 1 ({{EC number|3.1.21.3}})
+**[[Restriction enzyme]] Type 2 ({{EC number|3.1.21.4}})
+**[[Restriction enzyme]] Type 3 ({{EC number|3.1.21.5}})
+**[[Restriction enzyme]] Type 4 (?)
+**[[Deoxyribonuclease]] I ({{EC number|3.1.21.1}})
+*'''[[:Category:EC 3.1.26]]'''
+**[[RNase H]] ({{EC number|3.1.26.4}})
+*'''[[:Category:EC 3.1.27]]'''
+**[[Ribonuclease]]
+
+===[[:Category:EC 3.2]] (act on sugars - [[glycosylases]])===
+*'''[[:Category:EC 3.2.1]]'''
+**[[Amylase]] ({{EC number|3.2.1.1}})
+**[[Sucrase]] ({{EC number|3.2.1.10}})
+**[[Chitinase]] ({{EC number|3.2.1.14}})
+**[[Lysozyme]] ({{EC number|3.2.1.17}})
+**[[Maltase]] ({{EC number|3.2.1.20}})
+**[[Lactase]] ({{EC number|3.2.1.23}})
+**[[Beta-galactosidase]] ({{EC number|3.2.1.23}})
+**[[Hyaluronidase]] ({{EC number|3.2.1.35}})
+===Function and clinical importance of some enzymes in category 3.2.1===
+==== Amylase ====
+''Function'': Amylase is an enzyme that is responsible for the breaking of the bonds in starches, polysaccharides, and complex carbohydrates to be turned into simple sugars that will be easier to absorb.
+
+''Clinical Significance'': Amylase also has medical history in the use of Pancreatic Enzyme Replacement Therapy (PERT). One of the components is Sollpura (liprotamase), which help in the breakdown of saccharides into simple sugars.
+
+==== Lysozyme ==== 
+''Function'': An enzyme that is produced by animals that forms part of the innate immune system and is abundant in the secretions of saliva, human milk, tears, and mucus. It functions as an antimicrobial agent by splitting the peptidoglycan component of bacterial cell walls, which then leads to cell death. 
+
+''Clinical Significance'': Toxic levels of blood are caused by the excessive production of lysozyme's by cancer cells. Lysozyme's have also been associated with Bronchopulmonary dysplasia (BPD) in newborns and is a key factor in providing the immunology of infants during breast feeding.
+
+==== Sucrase ==== 
+''Function'': Sucrase is a stomachs related protein that mobilizes hydrolysis to convert sucrose into glucose and fructose.  
+
+''Clinical Significance'': Low amounts of Sucrose also known as [[Sucrose intolerance]] happens when sucrose isn’t being discharged in the small digestive tract. A result of this is extra gas.
+
+==== Lactase ==== 
+''Function'': lactase is located in the small digestives system of people and other creatures such as [[mammals]]. Lactase is the bases of the total absorption of milk. 
+
+''Clinical Significance'': People who are lactose intolerant have medicine that can help with the digestion. When you are lactose intolerant you might experience gas, bloating, and pain along with other symptoms regarding your digestive system. 
+
+
+===[[:Category:EC 3.3]] (act on [[ether]] bonds)===
+*'''[[:Category:EC 3.3]]'''
+* [[Adenosylmethionine hydrolase]]
+* [[S-adenosyl-L-homocysteine hydrolase]]
+* [[Alkenylglycerophosphocholine hydrolase]]
+* [[Alkenylglycerophosphoethanolamine hydrolase]]
+* [[Cholesterol-5,6-oxide hydrolase]]
+* [[Hepoxilin-epoxide hydrolase]]
+* [[Isochorismatase]]
+* [[Leukotriene-A4 hydrolase]]
+* [[Limonene-1,2-epoxide hydrolase]]
+* [[Microsomal epoxide hydrolase]]
+* [[Trans-epoxysuccinate hydrolase]]
+
+===[[:Category:EC 3.4]] (act on [[peptide bond]]s - [[Peptidase]])===
+*'''[[:Category:EC 3.4.11]]'''
+**[[Alanine aminopeptidase]]
+*'''[[:Category:EC 3.4.15]]'''
+**[[Angiotensin converting enzyme]]
+*'''[[:Category:EC 3.4.21]]'''
+**[[Serine protease]]
+**[[Chymotrypsin]] ({{EC number|3.4.21.1}})
+**[[Trypsin]] ({{EC number|3.4.21.4}})
+**[[Thrombin]] ({{EC number|3.4.21.5}})
+**[[Factor X]] ({{EC number|3.4.21.6}})
+**[[Plasmin]] ({{EC number|3.4.21.7}})
+**[[Acrosin]] ({{EC number|3.4.21.10}})
+**[[Factor VII]] ({{EC number|3.4.21.21}})
+**[[Factor IX]] ({{EC number|3.4.21.22}})
+**[[Prolyl oligopeptidase]] ({{EC number|3.4.21.26}})
+**[[Factor XI]] ({{EC number|3.4.21.27}})
+**[[Elastase]] ({{EC number|3.4.21.37}})
+**[[Factor XII]] ({{EC number|3.4.21.38}})
+**[[Proteinase K]] ({{EC number|3.4.21.64}})
+**[[Tissue plasminogen activator]] ({{EC number|3.4.21.68}})
+**[[Protein C]] ({{EC number|3.4.21.69}})
+*'''[[:Category:EC 3.4.22]]'''
+**[[Separase]] ({{EC number|3.4.22.49}})
+*'''[[:Category:EC 3.4.23]]'''
+**[[Pepsin]] ({{EC number|3.4.23.1}})
+**[[Rennet]] ({{EC number|3.4.23.4}})
+**[[Renin]] ({{EC number|3.4.23.15}})
+**[[Trypsinogen]] ({{EC number|3.4.23.18}}) and (20/21/23/24/26)
+**[[Plasmepsin]] ({{EC number|3.4.23.39}})
+*'''[[:Category:EC 3.4.24]]'''
+**[[Matrix metalloproteinase]] ({{EC number|3.4.24.7}})
+*'''[[:Category:EC 3.4.25]]'''
+**[[Metalloendopeptidase]]
+
+===[[:Category:EC 3.5]] (act on carbon-nitrogen bonds, other than peptide bonds)===
+*'''[[:Category:EC 3.5.1]]''' (In linear amides)
+**[[Urease]] ({{EC number|3.5.1.5}})
+*'''[[:Category:EC 3.5.2]]''' (In cyclic amides)
+**[[Beta-lactamase]] ({{EC number|3.5.2.6}})
+*'''[[:Category:EC 3.5.3]]''' (In linear amidines)
+**[[Arginase]] ({{EC number|3.5.3.1}})
+*'''[[:Category:EC 3.5.4]]''' (In cyclic amidines)
+**[[Adenosine deaminase]] ({{EC number|3.5.4.4}})
+**[[GTP cyclohydrolase I]] ({{EC number|3.5.4.16}})
+*'''[[:Category:EC 3.5.5]]''' (In nitriles)
+**[[Nitrilase]] ({{EC number|3.5.5.1}})
+
+===[[:Category:EC 3.6]] (act on [[acid anhydride]]s)===
+*'''[[:Category:EC 3.6.1]]'''
+**[[Helicase]]
+**[[DnaB helicase]]
+**[[RecQ helicase]]
+*'''[[:Category:EC 3.6.3]]'''
+**[[ATPase]]
+**[[NaKATPase]] ({{EC number|3.6.3.9}})
+**[[ATP synthase]] ({{EC number|3.6.3.14}})
+
+===[[:Category:EC 3.7]] (act on carbon-carbon bonds)===
+* [[Kynureninase]] {{EC number|3.7.1.3}}
+
+===[[:Category:EC 3.8]] (act on [[halide]] bonds)===
+* EC 3.8.1.3 [[Haloacetate dehalogenase]]
+
+===[[:Category:EC 3.9]] (act on phosphorus-nitrogen bonds)===
+* {{EC number|3.9.1.1}}: [[Phosphoamidase]]
+* {{EC number|3.9.1.2}}: [[Protein arginine phosphatase]]
+* {{EC number|3.9.1.3}}: [[Phosphohistidine phosphatase]]
+
+===[[:Category:EC 3.10]] (act on sulfur-nitrogen bonds)===
+* {{EC number|3.10.1.1}}: [[N-sulfoglucosamine sulfohydrolase]]
+* {{EC number|3.10.1.2}}: [[Cyclamate sulfohydrolase]]
+
+===[[:Category:EC 3.11]] (act on carbon-phosphorus bonds)===
+* {{EC number|3.11.1.1}}: [[Phosphonoacetaldehyde hydrolase]]
+* {{EC number|3.11.1.2}}: [[Phosphonoacetate hydrolase]]
+* {{EC number|3.11.1.3}}: [[Phosphonopyruvate hydrolase]]
+
+===[[:Category:EC 3.12]] (act on sulfur-sulfur bonds)===
+* {{EC number|3.12.1.1}}: [[Trithionate hydrolase]]
+
+===[[:Category:EC 3.13]] (act on carbon-sulfur bonds)===
+* {{EC number|3.13.1.1}}: [[UDP-sulfoquinovose synthase]]
+* {{EC number|3.13.1.3}}: [[2'-hydroxybiphenyl-2-sulfinate desulfinase]]
+* {{EC number|3.13.1.4}}: [[3-sulfinopropanoyl-CoA desulfinase]]
+* {{EC number|3.13.1.5}}: [[Carbon disulfide hydrolase]]
+* {{EC number|3.13.1.6}}: [[(CysO sulfur-carrier protein)-S-L-cysteine hydrolase]]
+* {{EC number|3.13.1.7}}: [[Carbonyl sulfide hydrolase]]
+* {{EC number|3.13.1.8}}: [[S-adenosyl-L-methionine hydrolase (adenosine-forming)]]
+
+==[[:Category:Lyases]] (EC 4) ([[Lyase]])==
+
+===[[:Category:EC 4.1]] (carbon-carbon [[lyase]]s)===
+*'''[[:Category:EC 4.1.1]]'''
+**[[Ornithine decarboxylase]] ({{EC number|4.1.1.17}})
+**[[Uridine monophosphate synthetase]] ({{EC number|4.1.1.23}})
+**[[Aromatic-L-amino-acid decarboxylase]] ({{EC number|4.1.1.28}})
+**[[RubisCO]] ({{EC number|4.1.1.39}})
+*'''[[:Category:EC 4.1.2]]'''
+**[[Fructose-bisphosphate aldolase]] ({{EC number|4.1.2.13}})
+
+===[[:Category:EC 4.2]] (carbon-oxygen [[lyase]]s)===
+*'''[[:Category:EC 4.2.1]]'''
+**[[Carbonic anhydrase]] ({{EC number|4.2.1.1}})
+**[[Tryptophan synthase]] ({{EC number|4.2.1.20}})
+
+===[[:Category:EC 4.3]] (carbon-nitrogen [[lyase]]s)===
+*'''[[:Category:EC 4.3.1]]'''
+**[[Phenylalanine ammonia-lyase]] ({{EC number|4.3.1.24}})
+
+===[[:Category:EC 4.4]] (carbon-sulfur [[lyase]]s)===
+*'''[[:Category:EC 4.4.1]]'''
+**[[Cystathionine gamma-lyase]]
+**[[Cystathionine beta-lyase]]
+**[[Leukotriene C4 synthase]]
+
+===[[:Category:EC 4.5]] (carbon-halide [[lyase]]s)===
+*'''[[:Category:EC 4.5.1]]'''
+**[[Dichloromethane dehalogenase]]
+**[[Halohydrin dehalogenase]]
+
+===[[:Category:EC 4.6]] (phosphorus-oxygen [[lyase]]s)===
+*'''[[:Category:EC 4.6.1]]'''
+**[[Adenylate cyclase]] ({{EC number|4.6.1.1}})
+**[[Guanylate cyclase]] ({{EC number|4.6.1.2}})
+
+==[[:Category:Isomerases]] (EC 5) ([[Isomerase]])==
+
+===[[:Category:EC 5.1]] (racemases and epimerases)===
+*'''[[:Category:EC 5.1.1]]'''
+* [[Amino-acid racemase]]: [[Phenylalanine racemase (ATP-hydrolysing)]]
+* [[Serine racemase]]
+*'''[[:Category:EC 5.1.2]]'''
+* [[Mandelate racemase]]
+*'''[[:Category:EC 5.1.3]]'''
+* [[UDP-glucose 4-epimerase]]
+*'''[[:Category:EC 5.1.99]]'''
+* [[Methylmalonyl CoA epimerase]]
+
+===[[:Category:EC 5.2]] (cis-trans-isomerases)===
+*'''[[:Category:EC 5.2]]'''
+* [[FKBP]]: [[FKBP1A]]
+* [[FKBP1B]]
+* [[FKBP2]]
+* [[FKBP3]]
+* [[FKBP4]]
+* [[FKBP5]]
+* [[FKBP6]]
+* [[FKBP8]]
+* [[FKBP9]]
+* [[FKBP10]]
+* [[FKBPL]]
+* [[Cyclophilin]]
+* [[Parvulin]]
+* [[Prolyl isomerase]]
+* [[2-chloro-4-carboxymethylenebut-2-en-1,4-olide isomerase]]
+* [[Beta-carotene isomerase]]
+* [[Farnesol 2-isomerase]]
+* [[Furylfuramide isomerase]]
+* [[Linoleate isomerase]]
+* [[Maleate isomerase]]
+* [[Maleylacetoacetate isomerase]]
+* [[Maleylpyruvate isomerase]]
+* [[Parvulin]]
+* [[Photoisomerase]]
+* [[Prolycopene isomerase]]
+* [[Prolyl isomerase]]
+* [[Retinal isomerase]]
+* [[Retinol isomerase]]
+* [[Zeta-carotene isomerase]]
+
+===[[:Category:EC 5.3]] ([[Intramolecular reaction|intramolecular]] [[oxidoreductase]]s)===
+*'''[[:Category:EC 5.3.3]]'''
+**[[Enoyl CoA isomerase]] ({{EC number|5.3.3.8}})
+*'''[[:Category:EC 5.3.4]]'''
+**[[Protein disulfide isomerase]] ({{EC number|5.3.4.1}})
+
+===[[:Category:EC 5.4]] (intramolecular [[transferase]]s -- [[mutase]]s)===
+*'''[[:Category:EC 5.4.2]]'''
+**[[Phosphoglucomutase]] ({{EC number|5.4.2.2}})
+
+===[[:Category:EC 5.5]] (intramolecular [[lyase]]s)===
+{| class="wikitable"
+|+ Intramolecular lyases:
+! '''EC number''' || '''Examples'''
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.1]]''' || [[Muconate cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.2]]''' || [[3-carboxy-cis,cis-muconate cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.3]]''' || [[Tetrahydroxypteridine cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.4]]''' || [[Inositol-3-phosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.5]]''' || [[Carboxy-cis,cis-muconate cyclase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.6]]''' || [[Chalcone isomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.7]]''' || [[Chloromuconate cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.8]]''' || [[bornyl diphosphate synthase|(+)-bornyl diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.9]]''' || [[Cycloeucalenol cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.10]]''' || [[Alpha-pinene-oxide decyclase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.11]]''' || [[Dichloromuconate cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.12]]''' || [[Copalyl diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.13]]''' || [[Ent-copalyl diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.14]]''' || [[Syn-copalyl-diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.15]]''' || [[Terpentedienyl-diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.16]]''' || [[Halimadienyl-diphosphate synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.17]]''' || [[(S)-beta-macrocarpene synthase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.18]]''' || [[Lycopene epsilon-cyclase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.19]]''' || [[Lycopene beta-cyclase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.20]]''' || [[Prosolanapyrone-III cycloisomerase]]
+|-
+| align=''center'' | '''[[:Category:EC 5.5.1|EC 5.5.1.n1]]''' || D-ribose pyranase
+|-
+|EC 5.5.1.22
+|[[Steroid Delta-isomerase|Steroid Delta Isomerase]]
+|-
+|
+|
+|}
+
+===[[:Category:EC 5.99]] (other isomerases)===
+*'''[[:Category:EC 5.99.1]]'''
+**[[Topoisomerase]] (type I: {{EC number|5.99.1.2}}, type II: {{EC number|5.99.1.3}})
+
+==[[:Category:Ligases]] (EC 6) ([[Ligase]])==
+
+===[[:Category:EC 6.1]] (form carbon-oxygen bonds)===
+[[6-carboxytetrahydropterin synthase]]
+
+*'''[[:Category:EC 6.1.1]]'''
+**[[FARSB]] ({{EC number|6.1.1.20}})
+
+===[[:Category:EC 6.2]] (form carbon-sulfur bonds)===
+* {{EC number|6.2.1.1}}: [[Acetate--CoA ligase]]
+* {{EC number|6.2.1.2}}: [[Medium-chain acyl-CoA ligase]]
+* {{EC number|6.2.1.3}}: [[Long-chain-fatty-acid-CoA ligase]]
+* {{EC number|6.2.1.4}}: [[Succinate-CoA ligase (GDP-forming)]]
+* {{EC number|6.2.1.5}}: [[Succinate-CoA ligase (ADP-forming)]]
+* {{EC number|6.2.1.6}}: [[Glutarate-CoA ligase]]
+* {{EC number|6.2.1.7}}: [[Cholate-CoA ligase]]
+* {{EC number|6.2.1.8}}: [[Oxalate-CoA ligase]]
+* {{EC number|6.2.1.9}}: [[Malate-CoA ligase]]
+* {{EC number|6.2.1.10}}: [[Acid-CoA ligase (GDP-forming)]]
+* {{EC number|6.2.1.11}}: [[Biotin-CoA ligase]]
+* {{EC number|6.2.1.12}}: [[4-coumarate-CoA ligase]]
+* {{EC number|6.2.1.13}}: [[Acetate-CoA ligase (ADP-forming)]]
+* {{EC number|6.2.1.14}}: [[6-carboxyhexanoate-CoA ligase]]
+* {{EC number|6.2.1.15}}: [[Arachidonate-CoA ligase]]
+* {{EC number|6.2.1.16}}: [[Acetoacetate-CoA ligase]]
+* {{EC number|6.2.1.17}}: [[Propionate-CoA ligase]]
+* {{EC number|6.2.1.18}}: [[Citrate-CoA ligase]]
+* {{EC number|6.2.1.19}}: [[Long-chain-fatty-acid-luciferin-component ligase]]
+* {{EC number|6.2.1.20}}: [[Long-chain-fatty-acid-(acyl-carrier-protein) ligase]]
+* {{EC number|6.2.1.21}}: [[Transferred entry: 6.2.1.30]]
+* {{EC number|6.2.1.22}}: [[(citrate (pro-3S)-lyase) ligase]]
+* {{EC number|6.2.1.23}}: [[Dicarboxylate-CoA ligase]]
+* {{EC number|6.2.1.24}}: [[Phytanate-CoA ligase]]
+* {{EC number|6.2.1.25}}: [[Benzoate-CoA ligase]]
+* {{EC number|6.2.1.26}}: [[o-succinylbenzoate-CoA ligase]]
+* {{EC number|6.2.1.27}}: [[4-hydroxybenzoate-CoA ligase]]
+* {{EC number|6.2.1.28}}: [[3a,7a-dihydroxy-5b-cholestanate-CoA ligase]]
+* {{EC number|6.2.1.29}}: [[Transferred entry: 6.2.1.7]]
+* {{EC number|6.2.1.30}}: [[Phenylacetate-CoA ligase]]
+* {{EC number|6.2.1.31}}: [[2-furoate-CoA ligase]]
+* {{EC number|6.2.1.32}}: [[Anthranilate-CoA ligase]]
+* {{EC number|6.2.1.33}}: [[4-chlorobenzoate-CoA ligase]]
+* {{EC number|6.2.1.34}}: [[Trans-feruloyl-CoA synthase]]
+* {{EC number|6.2.1.35}}: [[ACP-SH:acetate ligase]]
+* {{EC number|6.2.1.36}}: [[3-hydroxypropionyl-CoA synthase]]
+* {{EC number|6.2.1.37}}: [[3-hydroxybenzoate—CoA ligase]]
+* {{EC number|6.2.1.38}}: [[(2,2,3-trimethyl-5-oxocyclopent-3-enyl)acetyl-CoA synthase]]
+* {{EC number|6.2.1.39}}: [[(butirosin acyl-carrier protein)—L-glutamate ligase]]
+* {{EC number|6.2.1.40}}: [[4-hydroxybutyrate-CoA ligase]]
+* {{EC number|6.2.1.41}}: [[3-((3aS,4S,7aS)-7a-methyl-1,5-dioxo-octahydro-1H-inden-4-yl)propanoate-CoA ligase]]
+* {{EC number|6.2.1.42}}: [[3-oxocholest-4-en-26-oate-CoA ligase]]
+* {{EC number|6.2.1.43}}: [[2-hydroxy-7-methoxy-5-methyl-1-naphthoate-CoA ligase]]
+* {{EC number|6.2.1.44}}: [[3-(methylthio)propionyl-CoA ligase]]
+* {{EC number|6.2.1.45}}: [[E1 ubiquitin-activating enzyme]]
+* {{EC number|6.2.1.46}}: [[L-allo-isoleucine--holo-CmaA peptidyl-carrier protein ligase]]
+* {{EC number|6.2.1.47}}: [[Medium-chain-fatty-acid-(acyl-carrier-protein) ligase]]
+* {{EC number|6.2.1.48}}: [[Carnitine-CoA ligase]]
+* {{EC number|6.2.1.49}}: [[Long-chain fatty acid adenylyltransferase FadD28]]
+* {{EC number|6.2.1.50}}: [[4-hydroxybenzoate adenylyltransferase FadD22]]
+* {{EC number|6.2.1.51}}: [[4-hydroxyphenylalkanoate adenylyltransferase FadD29]]
+* {{EC number|6.2.1.52}}: [[L-firefly luciferin-CoA ligase]]
+* {{EC number|6.2.1.53}}: [[L-proline-L-prolyl-carrier protein ligase]]
+* {{EC number|6.2.1.54}}: [[D-alanine-D-alanyl-carrier protein ligase]]
+* {{EC number|6.2.1.55}}: [[E1 SAMP-activating enzyme]]
+
+===[[:Category:EC 6.3]] (form carbon-nitrogen bonds)===
+* [[Glutamine synthetase]] ({{EC number|6.3.1.2}})
+* [[Argininosuccinate synthetase]] ({{EC number|6.3.4.5}})
+* [[CTP synthase]] ({{EC number|6.3.4.2}})
+
+===[[:Category:EC 6.4]] (form carbon-carbon bonds)===
+* [[Pyruvate carboxylase]] ({{EC number|6.4.1.1}})
+* [[Acetyl-CoA carboxylase]]  ({{EC number|6.4.1.2}})
+
+===[[:Category:EC 6.5]] (form [[phosphoric ester]] bonds)===
+[[DNA ligase]] ({{EC number|6.5.1.1}})
+
+===[[:Category:EC 6.6]] (form nitrogen-metal bonds)===
+
+{{DEFAULTSORT:List Of Enzymes}}
+[[Category:Biology-related lists|Enzymes]]
+[[Category:Enzymes]]
