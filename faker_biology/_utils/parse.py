@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sat Feb 12 10:05:04 2022
-
+For converting GFM files of Wikipedia lists to Python nested dicts
 @author: richard
 """
 import re, json, pprint
