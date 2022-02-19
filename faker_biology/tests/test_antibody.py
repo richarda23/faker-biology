@@ -8,12 +8,11 @@ Created on Sun Feb 13 10:27:03 2022
 
 import unittest
 from faker import Faker
-from faker_biology.providers.mol_biol.antibody import Antibody, ModelOrganism
+from faker_biology.mol_biol import Antibody
 
 
 fake = Faker()
 fake.add_provider(Antibody)
-fake.add_provider(ModelOrganism)
 re_provider = Antibody(None)
 
 
@@ -26,6 +25,4 @@ class AntibodyTest(unittest.TestCase):
         for i in range(10):
             fake.antibody_application()
 
-    def test_model_organism(self):
-        for i in range(10):
-            print(fake.organism_latin())
+    

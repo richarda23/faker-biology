@@ -6,11 +6,10 @@ Created on Sun Feb 13 10:20:19 2022
 @author: richard
 """
 from typing import Sequence
+from faker_biology import BioProvider
 
 from faker_biology.physiology.celltype_data import cell_types
 from faker_biology.physiology.organs_data import organ_data
-from faker_biology import BioProvider
-
 
 class CellType(BioProvider):
     """

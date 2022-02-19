@@ -7,8 +7,6 @@ Created on Sun Feb 13 10:20:19 2022
 """
 
 
-
-
 organ_data = {
     "Musculoskeletal system": {
         "Human skeleton": {},
