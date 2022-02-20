@@ -3,6 +3,12 @@ Biology-related fake data provider for Python Faker
 
 Some providers for biology-related concepts and resources.
 
+## Installation
+
+```
+ pip install faker-biology
+```
+
 ## Usage:
 
 Standard code to access Faker
