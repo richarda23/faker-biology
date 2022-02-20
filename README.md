@@ -49,10 +49,11 @@ Standard code to access Faker
 ### Molecular Biology
 
 ```python
- from faker_biology.mol_biol import Antibody, RestrictionEnzyme
+ from faker_biology.mol_biol import Antibody, RestrictionEnzyme, Enzyme
 
  fake.add_provider(RestrictionEnzyme)
  fake.add_provider(Antibody)
+ fake.add_provider(Enzyme)
 
  fake.re()
  # EcoRI
@@ -62,6 +63,10 @@ Standard code to access Faker
 
  fake.antibody_isotype()
  # IgG
+
+ fake.enzyme()
+ # Ubiquitin carboxy-terminal hydrolase L1:w
+
 ```
 ### Taxonomy 
 
