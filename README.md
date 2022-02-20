@@ -65,7 +65,7 @@ Standard code to access Faker
  # IgG
 
  fake.enzyme()
- # Ubiquitin carboxy-terminal hydrolase L1:w
+ # Ubiquitin carboxy-terminal hydrolase L1
 
 ```
 ### Taxonomy 
