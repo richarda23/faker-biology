@@ -1,9 +1,9 @@
 [tool.poetry]
 name = "faker-biology"
-version = "0.1.2"
+version = "0.2.0"
 description = "Fake data from biology"
-authors = ["richard <ra22597@gmail.com>"]
-license = "MIT"
+authors = ["Richard Adams <ra22597@gmail.com>"]
+license = "Apache 2"
 readme = "README.md"
 repository = "https://github.com/richarda23/faker-biology"
 documentation = "https://github.com/richarda23/faker-biology"

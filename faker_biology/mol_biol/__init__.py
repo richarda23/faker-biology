@@ -1,9 +1,11 @@
 from typing import Sequence
 
 from faker.providers import BaseProvider
+from faker_biology import BioProvider
 
 from faker_biology.mol_biol.re import rest_dict
 import faker_biology.mol_biol.antibody as ab
+from faker_biology.mol_biol.enzyme_data import enzymes
 
 
 class Antibody(BaseProvider):
@@ -108,3 +110,43 @@ class RestrictionEnzyme(BaseProvider):
             if v["ovhg"] is not None and v["ovhg"] > 0:
                 keys.append(k)
         return self.random_element(keys)
+
+class Enzyme(BioProvider):
+    """
+     Provider of enzyme names. Source of data is Wikipedia:
+         https://en.wikipedia.org/wiki/List_of_enzymes
+             
+    """
+
+    def __init__(self, generator):
+        super().__init__(generator)
+
+    def categories(self) -> Sequence[str]:
+        """
+        A list of enzyme categories
+        """
+       
+        return list(enzymes.keys())
+    
+    def _all_enzymes(self):
+        ## cache 
+        if not hasattr(self, '_enzymes'):
+            leaves = []
+            self._dict_leaves(enzymes, leaves)
+            self._enzymes = list(filter(lambda e: not e.startswith("Category"),  leaves))
+        return self._enzymes
+      
+    def enzyme_category(self):
+        if not hasattr(self, '_categories'):
+            all_vals = []
+            self._dict_all(enzymes, all_vals)
+            _categories = list(filter(lambda e:  e.startswith("Category"),  all_vals))
+            self._categories = [x[9:] for x in _categories if x.startswith('Category:')]
+        return self.random_element(self._categories)
+        
+
+    def enzyme(self) -> str:
+        """
+        Gets a random enzyme name
+        """
+        return self.random_element(self._all_enzymes())
