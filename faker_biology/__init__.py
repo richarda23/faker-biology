@@ -29,13 +29,13 @@ class BioProvider(BaseProvider):
         leaves = []
         self._dict_leaves(data[category], leaves)
         return leaves
-    
-    def _dict_all(self, data: dict, leaves =[]):
-         """
+
+    def _dict_all(self, data: dict, leaves=[]):
+        """
           Gets all keys in nested dict
          """
-         nodes = data.keys()
-         for key in nodes:
+        nodes = data.keys()
+        for key in nodes:
             subnode = data[key]
             if len(subnode) > 0:
                 leaves.append(key)

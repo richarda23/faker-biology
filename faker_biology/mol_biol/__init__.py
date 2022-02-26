@@ -111,6 +111,7 @@ class RestrictionEnzyme(BaseProvider):
                 keys.append(k)
         return self.random_element(keys)
 
+
 class Enzyme(BioProvider):
     """
      Provider of enzyme names. Source of data is Wikipedia:
@@ -125,25 +126,24 @@ class Enzyme(BioProvider):
         """
         A list of enzyme categories
         """
-       
+
         return list(enzymes.keys())
-    
+
     def _all_enzymes(self):
-        ## cache 
-        if not hasattr(self, '_enzymes'):
+        ## cache
+        if not hasattr(self, "_enzymes"):
             leaves = []
             self._dict_leaves(enzymes, leaves)
-            self._enzymes = list(filter(lambda e: not e.startswith("Category"),  leaves))
+            self._enzymes = list(filter(lambda e: not e.startswith("Category"), leaves))
         return self._enzymes
-      
+
     def enzyme_category(self):
-        if not hasattr(self, '_categories'):
+        if not hasattr(self, "_categories"):
             all_vals = []
             self._dict_all(enzymes, all_vals)
-            _categories = list(filter(lambda e:  e.startswith("Category"),  all_vals))
-            self._categories = [x[9:] for x in _categories if x.startswith('Category:')]
+            _categories = list(filter(lambda e: e.startswith("Category"), all_vals))
+            self._categories = [x[9:] for x in _categories if x.startswith("Category:")]
         return self.random_element(self._categories)
-        
 
     def enzyme(self) -> str:
         """

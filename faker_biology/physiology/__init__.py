@@ -6,11 +6,33 @@ Created on Sun Feb 13 10:20:19 2022
 @author: richard
 """
 from typing import Sequence
+from faker.providers import BaseProvider
 from faker_biology import BioProvider
 
 from faker_biology.physiology.celltype_data import cell_types
 from faker_biology.physiology.organs_data import organ_data
+import faker_biology.physiology.organelles as organelle_data
 
+class Organelle(BaseProvider):
+    def __init__(self, generator):
+        super().__init__(generator)
+        
+    def organelle(self) -> str:
+        """
+        A randomly selected cell organelle. Source Wikipedia 
+        https://en.wikipedia.org/wiki/Organelle
+        Returns
+        -------
+        str
+            An organelle, e.g. 'nucleus'.
+
+        """
+        maj = [x['name'] for x in organelle_data.eukaryote_organelles['eukaryotes_major']]
+        minor  = [x['name'] for x in organelle_data.eukaryote_organelles['eukaryotes_minor']]
+        maj.extend(minor)
+        return self.random_element(maj)
+
+    
 
 class CellType(BioProvider):
     """
