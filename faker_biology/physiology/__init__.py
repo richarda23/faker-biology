@@ -17,6 +17,53 @@ class Organelle(BaseProvider):
     def __init__(self, generator):
         super().__init__(generator)
         
+    def _all(self):
+        maj = [x for x in organelle_data.eukaryote_organelles['eukaryotes_major']]
+        minor = [x  for x in organelle_data.eukaryote_organelles['eukaryotes_minor']]
+        maj.extend(minor)
+        return maj
+    
+    
+    def _filtered(self, terms):
+        orgs = self._all()
+        filtered = [x['name'] for x in  filter(lambda x:x['distribution'] in terms, orgs )]
+        return filtered
+        
+    def common_eukaryotic_organelle(self) -> str:
+        """
+        Gets an organelle name that appears in 'most' or 'all' organisms
+
+        Returns
+        -------
+        A string
+
+        """
+        common = ['all', 'most']
+        filtered = self._filtered(common)
+        return self.random_element(filtered)
+    
+    def plant_organelle(self) -> str:
+        """
+        Gets an organelle present in plant cells
+        Returns
+        -------
+        str
+        """
+        terms = ['all','most', 'plants']
+        filtered = self._filtered(terms)
+        return self.random_element(filtered)
+    
+    def animal_organelle(self) -> str:
+        """
+        Gets an organelle present in animal cells
+        Returns
+        -------
+        str
+        """
+        terms = ['all', 'most', 'animals']
+        filtered = self._filtered(terms)
+        return self.random_element(filtered)
+        
     def organelle(self) -> str:
         """
         A randomly selected cell organelle. Source Wikipedia 
@@ -27,10 +74,8 @@ class Organelle(BaseProvider):
             An organelle, e.g. 'nucleus'.
 
         """
-        maj = [x['name'] for x in organelle_data.eukaryote_organelles['eukaryotes_major']]
-        minor  = [x['name'] for x in organelle_data.eukaryote_organelles['eukaryotes_minor']]
-        maj.extend(minor)
-        return self.random_element(maj)
+        orgs = [x['name'] for x in self._all()]
+        return self.random_element(orgs)
 
     
 

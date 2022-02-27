@@ -35,7 +35,7 @@ eukaryote_organelles = {
         {"name": "ocelloid", "distribution": "rare"},
         {"name": "parenthesome", "distribution": "fungi"},
         {"name": "peroxisome", "distribution": "all"},
-        {"name": "porpsome", "distribution": "all"},
+        {"name": "porosome", "distribution": "all"},
         {"name": "ribosome", "distribution": "all"},
         {"name": "stress granule", "distribution": "most"},
         {"name": "vesicle", "distribution": "most"},
