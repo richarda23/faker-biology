@@ -20,16 +20,20 @@ Standard code to access Faker
 ### Physiology: Cell types and  organs
 
 ```python
- from faker_biology.physiology import CellType, Organ
+ from faker_biology.physiology import CellType, Organ, Organelle
 
  fake.add_provider(CellType)
  fake.add_provider(Organ)
+ fake.add_provider(Organelle)
  
  fake.organ()
  # Sublingual glands
 
  fake.celltype()
  # Centroacinar cell
+
+ fake.organelle()
+ # chloroplast
 ```
 
 ### Biosequences
