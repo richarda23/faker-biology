@@ -5,8 +5,8 @@ from faker.providers import BaseProvider
 
 class Bioseq(BaseProvider):
     """
-     Provider of DNA / RNA / protein sequences. 
-             
+     Provider of DNA / RNA / protein sequences.
+
     """
 
     def __init__(self, generator):
@@ -55,8 +55,8 @@ class Bioseq(BaseProvider):
         """
         Returns a DNA sequence that will encode a polypeptide. The sequence will
         always beging with 'ATG' and end with a randomly-chosen termination codon.
-        
-        e.g. cds(2) could return 'ATGGAAGTCTGA' 
+
+        e.g. cds(2) could return 'ATGGAAGTCTGA'
         Parameters
         ----------
         length : int, optional
@@ -125,6 +125,39 @@ class Bioseq(BaseProvider):
         index = random.randint(0, len(dna_data.protein_names))
         key = list(dna_data.protein_names.keys())[index]
         return key, dna_data.protein_names[key]
+
+    def amino_acid_name(self) -> str:
+        """
+        A randomly chosen long amino acid name from a list of 20 amino acids
+        Returns
+        -------
+        str
+            A long name of an amino acid.
+        """
+
+        return self.random_element([item[0] for item in dna_data.amino_acids])
+
+    def amino_acid_3_letters(self) -> str:
+        """
+        A randomly chosen 3 letters abbreviation for amino acid name from a list of 20 amino acids
+        Returns
+        -------
+        str
+            A 3 letters abbreviation for amino acid name.
+        """
+
+        return self.random_element([item[1] for item in dna_data.amino_acids])
+
+    def amino_acid_1_letter(self) -> str:
+        """
+        A randomly chosen 1 letter abbreviation for amino acid name from a list of 20 amino acids
+        Returns
+        -------
+        str
+            A 1 letter abbreviation for amino acid name.
+        """
+
+        return self.random_element([item[2] for item in dna_data.amino_acids])
 
     def _seq(self, length, alphabet):
         alphabet_length = len(alphabet) - 1
