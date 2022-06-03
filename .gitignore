@@ -3,3 +3,4 @@ faker_biology/.spyproject/
 faker_biology/tests/.pytest.cache/
 dist/
 .idea/
+.DS_Store
