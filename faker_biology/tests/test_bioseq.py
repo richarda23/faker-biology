@@ -7,9 +7,10 @@ Created on Sun Feb 13 10:27:03 2022
 """
 
 import unittest
+
 from faker import Faker
-from faker_biology.bioseq import Bioseq
-import faker_biology.bioseq.bioseq_data as bioseq_data
+
+from faker_biology.bioseq import Bioseq, bioseq_data
 
 
 fake = Faker()
@@ -37,3 +38,63 @@ class BioseqTest(unittest.TestCase):
 
     def test_protein_name(self):
         protein = fake.protein_name()
+
+    def test_amino_acid_name(self):
+        amino_acid_names = [
+            "Alanine",
+            "Arginine",
+            "Asparagine",
+            "Aspartic Acid",
+            "Cysteine",
+            "Glutamic Acid",
+            "Glutamine",
+            "Glycine",
+            "Histidine",
+            "Isoleucine",
+            "Leucine",
+            "Lysine",
+            "Methionine",
+            "Phenylalanine",
+            "Proline",
+            "Serine",
+            "Threonine",
+            "Tryptophan",
+            "Tyrosine",
+            "Valine",
+        ]
+
+        amino_acid = fake.amino_acid_name()
+        self.assertIn(amino_acid, amino_acid_names)
+
+    def test_amino_acid_3_letters(self):
+        amino_acid_names = [
+            "Ala",
+            "Arg",
+            "Asn",
+            "Asp",
+            "Cys",
+            "Glu",
+            "Gln",
+            "Gly",
+            "His",
+            "Ile",
+            "Leu",
+            "Lys",
+            "Met",
+            "Phe",
+            "Pro",
+            "Ser",
+            "Thr",
+            "Trp",
+            "Tyr",
+            "Val",
+        ]
+
+        amino_acid = fake.amino_acid_3_letters()
+        self.assertIn(amino_acid, amino_acid_names)
+
+    def test_amino_acid_1_letter(self):
+        amino_acid_names = "ARNDCEQGHILKMFPSTWYV"
+
+        amino_acid = fake.amino_acid_1_letter()
+        self.assertIn(amino_acid, amino_acid_names)

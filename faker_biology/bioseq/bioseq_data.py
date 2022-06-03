@@ -514,3 +514,27 @@ protein_names = {
     "HYCCI_HUMAN": "Hyccin (Down-regulated by CTNNB1 protein A) (Protein FAM126A)",
     "IQCC_HUMAN": "IQ domain-containing protein C",
 }
+
+
+amino_acids = [
+    ("Alanine", "Ala", "A"),
+    ("Arginine", "Arg", "R"),
+    ("Asparagine", "Asn", "N"),
+    ("Aspartic Acid", "Asp", "D"),
+    ("Cysteine", "Cys", "C"),
+    ("Glutamic Acid", "Glu", "E"),
+    ("Glutamine", "Gln", "Q"),
+    ("Glycine", "Gly", "G"),
+    ("Histidine", "His", "H"),
+    ("Isoleucine", "Ile", "I"),
+    ("Leucine", "Leu", "L"),
+    ("Lysine", "Lys", "K"),
+    ("Methionine", "Met", "M"),
+    ("Phenylalanine", "Phe", "F"),
+    ("Proline", "Pro", "P"),
+    ("Serine", "Ser", "S"),
+    ("Threonine", "Thr", "T"),
+    ("Tryptophan", "Trp", "W"),
+    ("Tyrosine", "Tyr", "Y"),
+    ("Valine", "Val", "V"),
+]

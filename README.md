@@ -54,6 +54,15 @@ Standard code to access Faker
 
  fake.protein_name()
  # HYAL4_HUMAN
+
+ fake.amino_acid_name()
+ # Glycine
+
+ fake.amino_acid_3_letters()
+ # Cys
+
+ fake.amino_acid_1_letter()
+ # W
 ```
 
 ### Molecular Biology
