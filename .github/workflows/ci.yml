@@ -52,5 +52,5 @@ jobs:
       - name: Run tests
         run: |
           source .venv/bin/activate
-          pytest tests/
+          pytest faker_biology/tests/
           coverage report
