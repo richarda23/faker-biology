@@ -4,6 +4,8 @@ on: push
 
 jobs:
   test:
+    matrix:
+        python-version: [ "3.7", "3.8", "3.9","3.10" ]
     runs-on: ubuntu-latest
     steps:
       #----------------------------------------------
@@ -15,7 +17,7 @@ jobs:
         id: setup-python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.7
+          python-version: ${{ matrix.python-version }}
       #----------------------------------------------
       #  -----  install & configure poetry  -----
       #----------------------------------------------
