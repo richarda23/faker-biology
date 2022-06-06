@@ -1,4 +1,10 @@
-All significant changes to the project will be recorded here
+All significant changes to the project will be recorded here.
+
+## Unreleased 
+
+### Breaking change
+
+- fake.organism() renamed to fake.organism_english() so that fake.organism() can return a named tuple.
 
 ## 0.6.0 2022-06-06
 
