@@ -10,7 +10,7 @@ class ModelOrganism(BaseProvider):
     def __init__(self, generator):
         super().__init__(generator)
 
-    def organism(self) -> str:
+    def organism_english(self) -> str:
         """
         English name of a  model organism used in life-science research
         Returns
@@ -29,3 +29,13 @@ class ModelOrganism(BaseProvider):
             A random model organism Latin name.
         """
         return self.random_element(td.MODEL_ORGANISMS_LATIN)
+    
+    def organism(self):
+        """
+        Object encapsulating data about a model organism used in life-science research
+        Returns
+        -------
+        ModelOrganism
+            A named tuple including information about  model organism.
+        """
+        return self.random_element(td.MODEL_ORGANISMS)
