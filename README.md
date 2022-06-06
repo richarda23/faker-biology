@@ -55,6 +55,9 @@ Standard code to access Faker
  fake.protein_name()
  # HYAL4_HUMAN
 
+ fake.amino_acid()
+ # AminoAcid(full_name='Glycine', three_letters_name='Gly', one_letter_name='G', mass=57)
+ 
  fake.amino_acid_name()
  # Glycine
 
@@ -63,6 +66,9 @@ Standard code to access Faker
 
  fake.amino_acid_1_letter()
  # W
+
+ fake.amino_acid_mass()
+ # 103
 ```
 
 ### Molecular Biology

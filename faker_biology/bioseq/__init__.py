@@ -126,6 +126,17 @@ class Bioseq(BaseProvider):
         key = list(dna_data.protein_names.keys())[index]
         return key, dna_data.protein_names[key]
 
+    def amino_acid(self) -> dna_data.AminoAcid:
+        """
+        A randomly chosen amino acid from a list of 20 amino acids
+        Returns
+        -------
+        AminoAcid
+            A named tuple containing all information about an amino acid.
+        """
+
+        return self.random_element(dna_data.amino_acids)
+
     def amino_acid_name(self) -> str:
         """
         A randomly chosen long amino acid name from a list of 20 amino acids
@@ -135,7 +146,7 @@ class Bioseq(BaseProvider):
             A long name of an amino acid.
         """
 
-        return self.random_element([item[0] for item in dna_data.amino_acids])
+        return self.random_element(dna_data.amino_acids).full_name
 
     def amino_acid_3_letters(self) -> str:
         """
@@ -146,7 +157,7 @@ class Bioseq(BaseProvider):
             A 3 letters abbreviation for amino acid name.
         """
 
-        return self.random_element([item[1] for item in dna_data.amino_acids])
+        return self.random_element(dna_data.amino_acids).three_letters_name
 
     def amino_acid_1_letter(self) -> str:
         """
@@ -157,7 +168,18 @@ class Bioseq(BaseProvider):
             A 1 letter abbreviation for amino acid name.
         """
 
-        return self.random_element([item[2] for item in dna_data.amino_acids])
+        return self.random_element(dna_data.amino_acids).one_letter_name
+
+    def amino_acid_mass(self) -> int:
+        """
+        A randomly chosen amino acid mass from a list of 20 amino acids
+        Returns
+        -------
+        int
+            An amino acid mass.
+        """
+
+        return self.random_element(dna_data.amino_acids).mass
 
     def _seq(self, length, alphabet):
         alphabet_length = len(alphabet) - 1
