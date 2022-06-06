@@ -5,6 +5,8 @@ Created on Sun Feb 13 10:20:19 2022
 
 @author: richard
 """
+from collections import namedtuple
+
 ambiguous_dna_letters = "GATCRYWSMKHBVDN"
 unambiguous_dna_letters = "GATC"
 ambiguous_rna_letters = "GAUCRYWSMKHBVDN"
@@ -516,25 +518,27 @@ protein_names = {
 }
 
 
+AminoAcid = namedtuple('AminoAcid', ['full_name', 'three_letters_name', 'one_letter_name'])
+
 amino_acids = [
-    ("Alanine", "Ala", "A"),
-    ("Arginine", "Arg", "R"),
-    ("Asparagine", "Asn", "N"),
-    ("Aspartic Acid", "Asp", "D"),
-    ("Cysteine", "Cys", "C"),
-    ("Glutamic Acid", "Glu", "E"),
-    ("Glutamine", "Gln", "Q"),
-    ("Glycine", "Gly", "G"),
-    ("Histidine", "His", "H"),
-    ("Isoleucine", "Ile", "I"),
-    ("Leucine", "Leu", "L"),
-    ("Lysine", "Lys", "K"),
-    ("Methionine", "Met", "M"),
-    ("Phenylalanine", "Phe", "F"),
-    ("Proline", "Pro", "P"),
-    ("Serine", "Ser", "S"),
-    ("Threonine", "Thr", "T"),
-    ("Tryptophan", "Trp", "W"),
-    ("Tyrosine", "Tyr", "Y"),
-    ("Valine", "Val", "V"),
+    AminoAcid("Alanine", "Ala", "A"),
+    AminoAcid("Arginine", "Arg", "R"),
+    AminoAcid("Asparagine", "Asn", "N"),
+    AminoAcid("Aspartic Acid", "Asp", "D"),
+    AminoAcid("Cysteine", "Cys", "C"),
+    AminoAcid("Glutamic Acid", "Glu", "E"),
+    AminoAcid("Glutamine", "Gln", "Q"),
+    AminoAcid("Glycine", "Gly", "G"),
+    AminoAcid("Histidine", "His", "H"),
+    AminoAcid("Isoleucine", "Ile", "I"),
+    AminoAcid("Leucine", "Leu", "L"),
+    AminoAcid("Lysine", "Lys", "K"),
+    AminoAcid("Methionine", "Met", "M"),
+    AminoAcid("Phenylalanine", "Phe", "F"),
+    AminoAcid("Proline", "Pro", "P"),
+    AminoAcid("Serine", "Ser", "S"),
+    AminoAcid("Threonine", "Thr", "T"),
+    AminoAcid("Tryptophan", "Trp", "W"),
+    AminoAcid("Tyrosine", "Tyr", "Y"),
+    AminoAcid("Valine", "Val", "V"),
 ]

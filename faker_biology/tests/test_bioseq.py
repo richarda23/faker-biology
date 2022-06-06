@@ -98,3 +98,7 @@ class BioseqTest(unittest.TestCase):
 
         amino_acid = fake.amino_acid_1_letter()
         self.assertIn(amino_acid, amino_acid_names)
+
+    def test_amino_acid(self):
+        amino_acid = fake.amino_acid()
+        self.assertIn(amino_acid, bioseq_data.amino_acids)
