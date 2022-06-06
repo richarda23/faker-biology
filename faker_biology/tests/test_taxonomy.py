@@ -28,5 +28,6 @@ class ModelOrganismTest(unittest.TestCase):
     def test_model_organism(self):
         for i in range(10):
             o = fake.organism()
-            print(o)
+            self.assertEqual(o.english, o.english)
+            self.assertEqual(o.latin, o.latin)
             

@@ -4,7 +4,7 @@ import faker_biology.taxonomy.taxonomy_data as td
 
 class ModelOrganism(BaseProvider):
     """
-     Provider of random model organism names. 
+     Provider of random model organism names used in life-science research. 
     """
 
     def __init__(self, generator):
@@ -36,6 +36,6 @@ class ModelOrganism(BaseProvider):
         Returns
         -------
         ModelOrganism
-            A named tuple including information about  model organism.
+            A named tuple including  all information about the model organism.
         """
         return self.random_element(td.MODEL_ORGANISMS)
