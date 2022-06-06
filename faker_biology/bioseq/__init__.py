@@ -132,7 +132,7 @@ class Bioseq(BaseProvider):
         Returns
         -------
         AminoAcid
-            A named tuple containing all variants of an amino acid name.
+            A named tuple containing all information about an amino acid.
         """
 
         return self.random_element(dna_data.amino_acids)
@@ -169,6 +169,17 @@ class Bioseq(BaseProvider):
         """
 
         return self.random_element(dna_data.amino_acids).one_letter_name
+
+    def amino_acid_mass(self) -> int:
+        """
+        A randomly chosen amino acid mass from a list of 20 amino acids
+        Returns
+        -------
+        int
+            An amino acid mass.
+        """
+
+        return self.random_element(dna_data.amino_acids).mass
 
     def _seq(self, length, alphabet):
         alphabet_length = len(alphabet) - 1

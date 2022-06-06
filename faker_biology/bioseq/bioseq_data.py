@@ -518,27 +518,27 @@ protein_names = {
 }
 
 
-AminoAcid = namedtuple('AminoAcid', ['full_name', 'three_letters_name', 'one_letter_name'])
+AminoAcid = namedtuple('AminoAcid', ['full_name', 'three_letters_name', 'one_letter_name', 'mass'])
 
 amino_acids = [
-    AminoAcid("Alanine", "Ala", "A"),
-    AminoAcid("Arginine", "Arg", "R"),
-    AminoAcid("Asparagine", "Asn", "N"),
-    AminoAcid("Aspartic Acid", "Asp", "D"),
-    AminoAcid("Cysteine", "Cys", "C"),
-    AminoAcid("Glutamic Acid", "Glu", "E"),
-    AminoAcid("Glutamine", "Gln", "Q"),
-    AminoAcid("Glycine", "Gly", "G"),
-    AminoAcid("Histidine", "His", "H"),
-    AminoAcid("Isoleucine", "Ile", "I"),
-    AminoAcid("Leucine", "Leu", "L"),
-    AminoAcid("Lysine", "Lys", "K"),
-    AminoAcid("Methionine", "Met", "M"),
-    AminoAcid("Phenylalanine", "Phe", "F"),
-    AminoAcid("Proline", "Pro", "P"),
-    AminoAcid("Serine", "Ser", "S"),
-    AminoAcid("Threonine", "Thr", "T"),
-    AminoAcid("Tryptophan", "Trp", "W"),
-    AminoAcid("Tyrosine", "Tyr", "Y"),
-    AminoAcid("Valine", "Val", "V"),
+    AminoAcid("Alanine", "Ala", "A", 71),
+    AminoAcid("Arginine", "Arg", "R", 156),
+    AminoAcid("Asparagine", "Asn", "N", 114),
+    AminoAcid("Aspartic Acid", "Asp", "D", 115),
+    AminoAcid("Cysteine", "Cys", "C", 103),
+    AminoAcid("Glutamic Acid", "Glu", "E", 129),
+    AminoAcid("Glutamine", "Gln", "Q", 128),
+    AminoAcid("Glycine", "Gly", "G", 57),
+    AminoAcid("Histidine", "His", "H", 137),
+    AminoAcid("Isoleucine", "Ile", "I", 113),
+    AminoAcid("Leucine", "Leu", "L", 113),
+    AminoAcid("Lysine", "Lys", "K", 128),
+    AminoAcid("Methionine", "Met", "M", 131),
+    AminoAcid("Phenylalanine", "Phe", "F", 147),
+    AminoAcid("Proline", "Pro", "P", 97),
+    AminoAcid("Serine", "Ser", "S", 87),
+    AminoAcid("Threonine", "Thr", "T", 101),
+    AminoAcid("Tryptophan", "Trp", "W", 186),
+    AminoAcid("Tyrosine", "Tyr", "Y", 163),
+    AminoAcid("Valine", "Val", "V", 99),
 ]
