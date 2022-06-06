@@ -1,6 +1,10 @@
 All significant changes to the project will be recorded here
 
-## 0.5.0
+## Unreleased
+
+- amino acid named tuples - thank-you pokidovea
+
+## 0.5.0 2022-06-03
 
 ### Added
 
