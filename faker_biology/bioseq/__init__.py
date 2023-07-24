@@ -185,6 +185,6 @@ class Bioseq(BaseProvider):
         alphabet_length = len(alphabet) - 1
         seq = []
         for i in range(length):
-            j = random.randint(0, alphabet_length)
+            j = self.generator.random.randint(0, alphabet_length)
             seq.append(alphabet[j])
         return "".join(seq)
