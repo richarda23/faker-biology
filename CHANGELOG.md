@@ -10,6 +10,10 @@ All significant changes to the project will be recorded here.
 
 - Use random seed to produce reproducible random bioseq sequences
 
+## 0.6.1 2023-10-14
+
+- Use random seed to produce reproducible random bioseq sequences
+
 ## 0.6.0 2022-06-06
 
 - amino acid named tuples - thank-you pokidovea
