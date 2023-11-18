@@ -6,6 +6,10 @@ All significant changes to the project will be recorded here.
 
 - fake.organism() renamed to fake.organism_english() so that fake.organism() can return a named tuple.
 
+## 0.6.2
+
+-  support wider range of core faker versions
+
 ## 0.6.1 2023-10-14
 
 - Use random seed to produce reproducible random bioseq sequences
