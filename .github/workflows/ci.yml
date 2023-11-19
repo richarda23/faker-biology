@@ -19,15 +19,14 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-      #----------------------------------------------
-      #  -----  install & configure poetry  -----
-      #----------------------------------------------
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
-        with:
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-          installer-parallel: true
+
+      - name: Install poetry
+          run: |
+            python -m pip install poetry
+
+      - name: Configure poetry
+          run: |
+            python -m poetry config virtualenvs.in-project true
 
       #----------------------------------------------
       #       load cached venv if cache exists
@@ -42,18 +41,18 @@ jobs:
       # install dependencies if cache does not exist
       #----------------------------------------------
       - name: Install dependencies
-        if: steps.cached-poetry-dependencies.outputs.cache-hit != 'true'
-        run: poetry install --no-interaction --no-root
+          run: |
+            python -m poetry install --no-interaction --no-root
+
       #----------------------------------------------
       # install your root project, if required
       #----------------------------------------------
       - name: Install library
         run: poetry install --no-interaction
+        
       #----------------------------------------------
       #              run test suite
       #----------------------------------------------
       - name: Run tests
         run: |
-          source .venv/bin/activate
-          pytest faker_biology/tests/
-          #coverage report
+          python -m poetry run python -m pytest -sxv faker_biology/tests
