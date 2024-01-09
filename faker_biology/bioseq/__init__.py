@@ -54,7 +54,7 @@ class Bioseq(BaseProvider):
     def cds(self, length: int = 20) -> str:
         """
         Returns a DNA sequence that will encode a polypeptide. The sequence will
-        always beging with 'ATG' and end with a randomly-chosen termination codon.
+        always begin with 'ATG' and end with a randomly-chosen termination codon.
 
         e.g. cds(2) could return 'ATGGAAGTCTGA'
         Parameters
