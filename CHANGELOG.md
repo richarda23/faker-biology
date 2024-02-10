@@ -6,6 +6,11 @@ All significant changes to the project will be recorded here.
 
 - fake.organism() renamed to fake.organism_english() so that fake.organism() can return a named tuple.
 
+## 0.6.4 2024-02-10
+
+ - include python 3.12 in github actions test matrix
+ - dependency update
+
 ## 0.6.2
 
 -  support wider range of core faker versions
