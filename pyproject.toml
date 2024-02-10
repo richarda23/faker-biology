@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "faker-biology"
-version = "0.6.1"
+version = "0.6.3"
 description = "Fake data from biology"
 authors = ["Richard Adams <ra22597@gmail.com>"]
 license = "Apache 2"
@@ -13,7 +13,7 @@ keywords = ["Biology", "Faker"]
 [tool.poetry.dependencies]
 python = "^3.8"
 faker-python = "^0.0.1"
-Faker = ">=12,<=20"
+Faker = ">=12"
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.0.1"
