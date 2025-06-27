@@ -13,7 +13,6 @@ keywords = ["Biology", "Faker"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-faker-python = "^0.0.1"
 Faker = ">=12"
 
 [tool.poetry.dev-dependencies]
