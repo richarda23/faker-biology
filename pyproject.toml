@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "faker-biology"
 
-version = "0.6.4"
+version = "0.6.5"
 description = "Fake data from biology"
 authors = ["Richard Adams <ra22597@gmail.com>"]
 license = "Apache 2"
