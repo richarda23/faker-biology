@@ -181,7 +181,7 @@ class Bioseq(BaseProvider):
 
         return self.random_element(dna_data.amino_acids).mass
 
-    def _seq(self, length, alphabet):
+    def _seq(self, length: int, alphabet: str) -> str:
         alphabet_length = len(alphabet) - 1
         seq = []
         for i in range(length):

@@ -30,7 +30,7 @@ class ModelOrganism(BaseProvider):
         """
         return self.random_element(td.MODEL_ORGANISMS_LATIN)
     
-    def organism(self):
+    def organism(self) -> td.MODEL_ORGANISM:
         """
         Object encapsulating data about a model organism used in life-science research
         Returns

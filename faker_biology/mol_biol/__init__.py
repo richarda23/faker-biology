@@ -129,7 +129,7 @@ class Enzyme(BioProvider):
 
         return list(enzymes.keys())
 
-    def _all_enzymes(self):
+    def _all_enzymes(self) -> list:
         ## cache
         if not hasattr(self, "_enzymes"):
             leaves = []
@@ -137,7 +137,7 @@ class Enzyme(BioProvider):
             self._enzymes = list(filter(lambda e: not e.startswith("Category"), leaves))
         return self._enzymes
 
-    def enzyme_category(self):
+    def enzyme_category(self) -> str:
         if not hasattr(self, "_categories"):
             all_vals = []
             self._dict_all(enzymes, all_vals)
