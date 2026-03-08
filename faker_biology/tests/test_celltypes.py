@@ -23,3 +23,20 @@ class OrganTest(unittest.TestCase):
     def test_random_cell_type(self):
         cells = set([fake.unique.celltype() for i in range(15)])
         self.assertEqual(15, len(cells))
+
+    def test_dict_leaves_default_arg_not_shared(self):
+        # Mutable default bug: calling _dict_leaves twice with an explicit list
+        # each time should give the same results. This verifies that a fresh list
+        # is used each time rather than a shared default accumulating state.
+        from faker_biology import BioProvider
+        p = BioProvider(None)
+        data = {"a": {}, "b": {}, "c": {}}
+
+        first = []
+        p._dict_leaves(data, first)
+
+        second = []
+        p._dict_leaves(data, second)
+
+        self.assertEqual(first, second,
+            "Repeated calls to _dict_leaves should return identical results")
