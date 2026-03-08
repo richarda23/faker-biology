@@ -48,6 +48,14 @@ class BioseqTest(unittest.TestCase):
     def test_protein_name(self):
         protein = fake.protein_name()
 
+    def test_protein_name_desc_no_index_error(self):
+        # random.randint upper bound is inclusive, so calling this many times
+        # should eventually trigger an IndexError if the bound is off-by-one
+        for _ in range(1000):
+            name, desc = fake.protein_name_desc()
+            self.assertIsInstance(name, str)
+            self.assertIsInstance(desc, str)
+
     def test_amino_acid_name(self):
         amino_acid_names = [
             "Alanine",
