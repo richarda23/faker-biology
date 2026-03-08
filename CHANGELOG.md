@@ -2,9 +2,18 @@ All significant changes to the project will be recorded here.
 
 ## Unreleased
 
+## 0.6.7 2026-03-08
+
 ### Breaking change
 
 - fake.organism() renamed to fake.organism_english() so that fake.organism() can return a named tuple.
+
+### Fixed
+
+- Add missing return type hints across providers
+- Fix taxonomy tests and bump minimum Python version to 3.9
+- Lazy-load restriction enzyme data to avoid eager 437KB import on unrelated provider use
+- Fix deprecated `[tool.poetry.dev-dependencies]` syntax and regenerate lock file
 
 ## 0.6.6 2026-03-08
 
