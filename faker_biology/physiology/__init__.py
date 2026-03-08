@@ -134,7 +134,7 @@ class Organ(BioProvider):
         """
         return self.random_element(self._generate_non_repr_organs())
 
-    def _generate_non_repr_organs(self):
+    def _generate_non_repr_organs(self) -> list:
         if not hasattr(self, "_nonr_items"):
             categories = filter(lambda c: "eproductive" not in c, self.categories())
             self._nonr_items = []
