@@ -3,7 +3,6 @@ from typing import Sequence
 from faker.providers import BaseProvider
 from faker_biology import BioProvider
 
-from faker_biology.mol_biol.re import rest_dict
 import faker_biology.mol_biol.antibody as ab
 from faker_biology.mol_biol.enzyme_data import enzymes
 
@@ -59,6 +58,15 @@ class RestrictionEnzyme(BaseProvider):
      which in turn is derived from REBASE emboss files version 112 (2021).
     """
 
+    _rest_dict = None
+
+    @classmethod
+    def _get_rest_dict(cls) -> dict:
+        if cls._rest_dict is None:
+            from faker_biology.mol_biol.re import rest_dict
+            cls._rest_dict = rest_dict
+        return cls._rest_dict
+
     def __init__(self, generator):
         super().__init__(generator)
 
@@ -69,11 +77,11 @@ class RestrictionEnzyme(BaseProvider):
         """
         keys = []
         if min_length > 0:
-            for k, v in rest_dict.items():
+            for k, v in self._get_rest_dict().items():
                 if v["size"] >= min_length:
                     keys.append(k)
         else:
-            keys = rest_dict.keys()
+            keys = self._get_rest_dict().keys()
         if len(keys) == 0:
             raise ValueError("No enzymes were found matching that filter.")
         return self.random_element(keys)
@@ -83,7 +91,7 @@ class RestrictionEnzyme(BaseProvider):
          Returns data dict of a restriction enzyme. Does not work with 'faker.unique'
          as the dict is not hashable
         """
-        return rest_dict[self.restriction_enzyme()]
+        return self._get_rest_dict()[self.restriction_enzyme()]
 
     def blunt(self) -> str:
         """
@@ -93,7 +101,7 @@ class RestrictionEnzyme(BaseProvider):
             Random blunt-end cutter.
         """
         keys = []
-        for k, v in rest_dict.items():
+        for k, v in self._get_rest_dict().items():
             if v["ovhg"] is None or v["ovhg"] == 0:
                 keys.append(k)
         return self.random_element(keys)
@@ -106,7 +114,7 @@ class RestrictionEnzyme(BaseProvider):
             Random sticky-ended cutter.
         """
         keys = []
-        for k, v in rest_dict.items():
+        for k, v in self._get_rest_dict().items():
             if v["ovhg"] is not None and v["ovhg"] > 0:
                 keys.append(k)
         return self.random_element(keys)
