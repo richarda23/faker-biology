@@ -68,7 +68,7 @@ class Bioseq(BaseProvider):
         """
         i = 0
         codons = []
-        while i < 20:
+        while i < length:
             triplet = self.dna(3)
             if triplet not in dna_data.stop_codons:
                 codons.append(triplet)

@@ -31,6 +31,15 @@ class BioseqTest(unittest.TestCase):
         self.assertTrue(cds.startswith("ATG"))
         self.assertTrue(cds[-3:] in bioseq_data.stop_codons)
 
+    def test_cds_respects_length(self):
+        # ATG (3) + length * 3 codons + stop codon (3) = (length + 2) * 3
+        for length in [5, 10, 50]:
+            cds = fake.cds(length)
+            expected_len = (length + 2) * 3
+            self.assertEqual(expected_len, len(cds), f"cds({length}) should have length {expected_len}, got {len(cds)}")
+            self.assertTrue(cds.startswith("ATG"))
+            self.assertTrue(cds[-3:] in bioseq_data.stop_codons)
+
     def test_protein(self):
         protein = fake.protein(20)
         self.assertEqual(21, len(protein))
