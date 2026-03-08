@@ -33,3 +33,9 @@ class ReTest(unittest.TestCase):
     def test_blunt(self):
         res = [fake.unique.blunt() for i in range(50)]
         self.assertTrue(all([isinstance(re, str) for re in res]))
+
+    def test_rest_dict_not_loaded_until_first_use(self):
+        RestrictionEnzyme._rest_dict = None  # reset
+        self.assertIsNone(RestrictionEnzyme._rest_dict)
+        fake.restriction_enzyme()
+        self.assertIsNotNone(RestrictionEnzyme._rest_dict)
