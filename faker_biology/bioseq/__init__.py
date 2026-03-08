@@ -122,7 +122,7 @@ class Bioseq(BaseProvider):
         dict
             A name,description tuple.
         """
-        index = random.randint(0, len(dna_data.protein_names))
+        index = random.randint(0, len(dna_data.protein_names) - 1)
         key = list(dna_data.protein_names.keys())[index]
         return key, dna_data.protein_names[key]
 
