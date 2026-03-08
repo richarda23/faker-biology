@@ -1,10 +1,16 @@
 All significant changes to the project will be recorded here.
 
-## Unreleased 
+## Unreleased
 
 ### Breaking change
 
 - fake.organism() renamed to fake.organism_english() so that fake.organism() can return a named tuple.
+
+## 0.6.6 2026-03-08
+
+- fix issue #23: `cds()` was ignoring its `length` parameter due to a hardcoded value in the loop condition
+- fix issue #22: `protein_name_desc()` could raise an `IndexError` due to an off-by-one error in random index generation
+- fix issue #21: mutable default argument in `_dict_leaves` and `_dict_all` caused results to accumulate across repeated calls
 
 ## 0.6.5 2025-06-27
 
