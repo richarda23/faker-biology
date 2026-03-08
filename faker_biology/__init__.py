@@ -16,7 +16,9 @@ class BioProvider(BaseProvider):
     def __init__(self, generator):
         super().__init__(generator)
 
-    def _dict_leaves(self, data: dict, leaves=[]):
+    def _dict_leaves(self, data: dict, leaves=None):
+        if leaves is None:
+            leaves = []
         nodes = data.keys()
         for key in nodes:
             subnode = data[key]
@@ -30,10 +32,12 @@ class BioProvider(BaseProvider):
         self._dict_leaves(data[category], leaves)
         return leaves
 
-    def _dict_all(self, data: dict, leaves=[]):
+    def _dict_all(self, data: dict, leaves=None):
         """
           Gets all keys in nested dict
          """
+        if leaves is None:
+            leaves = []
         nodes = data.keys()
         for key in nodes:
             subnode = data[key]
